@@ -196,7 +196,7 @@ public class ReadXlsManager extends BaseSheet{
 					mStringKey = "display_sleep_mode_summary";
 				}*/
 			}else{ //然后把数据写进去
-				int type = cell.getCellType();
+				cell.getCellType();
 				//日期需要特殊处理
 				/*if(type == HSSFCell.CELL_TYPE_NUMERIC){
 					SimpleDateFormat sdf;

@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 阿拉伯语，埃及 -->
+    <string name="mail">البريد الإلكتروني</string>
+    <string name="password">كلمة المرور</string>
+    <string name="sign_in">تسجيل الدخول</string>
+    <string name="forgot_password">نسيت كلمة المرور?</string>
+    <string name="create_account">انشاء حساب</string>
+    
+    <string name="sign_up">انشاء حساب</string>
+    <string name="email_address">ادخل بريدك الإلكتروني</string>
+    <string name="registration">التسجيل</string>
+    <string name="i_have_read_and_agree_to">قرأت و أوافق على الشروط الأحكام</string>
+    <string name="the_terms_of_service">the&#160;terms&#160;and&#160;privacy</string>
+    
+    
+    <string name="home">الصفحة الرئيسية</string>
+    <string name="username">إسم المستخدم</string>
+    <string name="addDevice">إضافة جهاز</string>
+    <string name="Online">متصل</string>
+    <string name="Offline">غير متصل</string>
+    
+    <string name="Deviceisoffline">Device is offline.</string>
+    
+    
+    <string name="WindSpeedcannotbechangedunderAutoDrymode">لا يمكن تغيير سرعة المروحة في وضعية الأوتوماتيكي ( الجاف )</string>
+    <string name="Strongisnotsupportedatthismode">السرعة العالية للمروحة تعمل فقط في وضعية التبريد</string>
+    <string name="ECOcanbeusedonlyundercoolmode">وضعية توفير الطاقةECO  تعمل فقط في وضعية التبريد</string>
+    <string name="TemperaturecanntbechangedunderFanmode"> لا يمكن التحكم بدرخة الحرارة في وضعية المروحة FAN </string>
+    <string name="AUTO">أوتوماتيكي</string>
+    <string name="COOL">تبريد</string>
+    <string name="DRY">جاف</string>
+    <string name="HEAT">تدفئة</string>
+    <string name="FAN">مروحة</string>
+    
+    <string name="function">الوظيفة</string>
+    <string name="Timeron">تشغيل المؤقت </string>
+    <string name="Timeroff">إيقاف المؤقت</string>
+    <string name="Mon">الأحد</string>
+    <string name="Tues">السبت،</string>
+    <string name="Wed">الجمعة،</string>
+    <string name="Thur">الخميس،</string>
+    <string name="Fri">الأربعاء،</string>
+    <string name="Sat">الثلاثاء،</string>
+    <string name="Sun">الإثنين</string>
+    <string name="MonTuesWedThurFriSatSun">الإثنين ، الثلاثاء، الأربعاء، الخميس، الجمعة، السبت، الأحد</string>
+    <string name="Everyday">Everyday</string>
+    <string name="Sleep">وضعية النوم </string>
+    <string name="energy">الطاقة</string>
+    <string name="check">تأكد من</string>
+    <string name="heat8">8°C حار</string>
+    <string name="Sleepfunctioncanbeusedonlyundercoolandheatmode">وضعية النوم فقط تعمل في وضعية البار و الحار</string>
+    <string name="Sleepfunctioncantbeusedunder8Heat">Sleep function cannot be used below 46°F or 8°C</string>
+    <string name="EightHeatisnotsupportinthisdevice">EightHeat isn&#180;t support in this device</string>
+    
+    <string name="Repeat">الرجاء الإعادة</string>
+    <string name="Monday">الاثنين</string>
+    <string name="Tuesday">الثلاثاء</string>
+    <string name="Wednesday">الأربعاء</string>
+    <string name="Thursday">الخميس</string>
+    <string name="Friday">الجمعة</string>
+    <string name="Saturday">السبت</string>
+    <string name="Sunday">الأحد</string>
+    
+    <string name="Edit">تعديل</string>
+    <string name="Young">صغار</string>
+    <string name="Older">كبار</string>
+    <string name="Children">أطفال</string>
+    <string name="pleasechooseSleepCurve">Please choose sleep curve.</string>
+    
+    <string name="Lowest">أقل</string>
+    <string name="Highest">أعلى</string>
+    <string name="Electricity">كهرباء</string>
+    <string name="In">داخل</string>
+    <string name="Electricclearsuccess">Electric clear success!</string>
+    <string name="Thisfunctionisonlyavailableforinverterbasedairconditioner">هذه الخاصية متوفرة في موديلات اللإنفرتير فقط</string>
+    <string name="passthismonth">pass this month!</string>
+    <string name="Whethertoremoveserverelectricquantitydata">Whether to remove server electric quantity data?</string>
+    <string name="Confirm">Confirm</string>
+    <string name="Cancel">Cancel</string>
+    
+    <string name="Scanning">مسح</string>
+    <string name="Testing">تجربه</string>
+    <string name="Normal">طبيعي</string>
+    <string name="Abnormal">غير طبيعي</string>
+    <string name="Done">تم</string>
+    <string name="details">التفاصيل</string>
+    
+    
+    <string name="information">المعلومات</string>
+    <string name="DeleteSuccessfully">Device successfully deleted</string>
+    <string name="Pleaseinputfullname">Username cannot be blank.</string>
+    <string name="device_name_cant_exceed_19_characters">أسم الجهاز يجب أن لا يتعدى 19 حرف</string>
+    <string name="UpdateSuccess">Update successful</string>
+    <string name="itisnothaveDevicestodelete">it&#180;s not have Devices to delete!</string>
+    <string name="Suretodelete">تأكيد الحذف </string>
+    <string name="hours">الساعات</string>
+    <string name="ProfilePhoto">الصورة الشخصيه</string>
+    <string name="FullName">الإسم الكامل</string>
+    <string name="Servicetime">وقت الصيانة</string>
+    <string name="Productiondate">Production date</string>
+    <string name="Terminalbarcode">الباركود</string>
+    <string name="Delete">حذف</string>
+    
+    <string name="setting">Setting</string>
+    <string name="check_for_update">بحث عن تحديث</string>
+    <string name="about">عن</string>
+    <string name="More">More</string>
+    <string name="LogOut">تسجيل الخروج</string>
+    <string name="suretodownloadlastestApp">sure to download lastest App!</string>
+    
+    
+    <string name="Takepicture">Take picture</string>
+    <string name="Fromthealbum">From the album</string>
+    <string name="qr_code">كود ال QR</string>
+    <string name="pictrues">صور</string>
+    <string name="AligntheQRcodewithintheframetoscan">Align the QRcode within the frame to scan</string>
+    
+    <string name="Addedsuccessfully">Added successfully !</string>
+    <string name="Youcanstartcontrol">You can start control.</string>
+    
+    
+    <string name="Sound">الصوت</string>
+    <string name="PushMessages">الرسائل</string>
+    <string name="about_me">Me</string>
+    <string name="Usernamecantexceed20characters">Username can&#180;t exceed 35 characters</string>
+    
+    
+    <string name="AirConditioningApp">Air Conditioning App</string>
+    <string name="TermsandPrivacy">الشروط و الخصوصية</string>
+ 
+    <string name="pleasecleanthefilter">الرجاء القيام بتنظيف الفلتر</string>
+    <string name="Clean">تنظيف</string>
+    
+    <string name="Advise">إستشارة</string>
+    <string name="registered">Registered</string>
+    <string name="m_floor_standing">M floor standing</string>
+    
+    
+    <string name="Passwordchangeissuccessfulpleaseloginagain">Password change successful, sign in again.</string>
+    <string name="Pleaseentertheoldpassword">Current password cannot be blank!</string>
+    <string name="Pleaseenterthenewpassword">New password cannot be blank!</string>
+    <string name="Pleaseentertheconfirmpassword">New passwords do not match!</string>
+    <string name="Pleasetypeinthepasswordlengthof6to20">Password must be 6-20 characters long!</string>
+    <string name="Thepasswordandconfirmpassworsisinconformity">New passwords do not match!</string>
+    <string name="thenewpasswordcannotbethesameasthecurrentppassword">The new password can not be the same as the current password!</string>
+    
+    <string name="Emailaccountcannotbeempty">E-mail address field cannot be empty!</string>
+    <string name="Emailaccountformatisnotcorrect">E-mail address format is incorrect!</string>
+    <string name="Passwordresetsuccessfullypleaseloginemailchangepassword">An email to reset your password has been sent</string>
+    
+    <string name="Pleaseenterusername">Please enter user name!</string>
+    <string name="Pleaseenterpassword">Please enter password!</string>
+    <string name="clicktwicetoexit">انقر مرتين للخروج</string>
+    <string name="Succeed">Succeed!</string>
+    
+    <string name="Accountorpasswordcannotbeempty">Account and password fields cannot be empty!</string>
+    <!--<string name="Accountcannotbeempty">E-mail address field cannot be empty!</string>-->
+    <!--<string name="Passwordcannotbeempty">Password field cannot be empty!</string>-->
+   
+    <string name="troubleshooting">Trouble Shooting</string>
+    
+    <string name="Loading">جاري التحميل</string>
+    
+    <string name="TimeOut">Time Out</string>
+    
+    <string name="LeftorRightoffanisnotsupportedatthisdevice">Left or Right of fan is not supported at this device.</string>
+    <string name="UpDownfanisnotsupportedatthisdevice">Up and Down of fan is not supported at this device.</string>
+    <string name="ECOisnotsupportedatthisdevice">ECO is not supported at this device.</string>
+    <string name="Energyisnotsupportedatthisdevice">Energy is not supported at this device.</string>
+    <string name="AddedsuccessfullyYoucanstartcontrol">Added successfully ！You can start control.</string>
+    
+    <string name="PleasechoosetheWifi">Please choose the Wi-Fi.</string>
+    <string name="Succeedtocancel">Succeed to cancel.</string>
+    <string name="CustomerService">خدمة العملاء</string>
+    
+    
+    <string name="AirconditionwanttouseyourWiFi">جهاز التكييف يريد الإتصال بشبكة الإنترنت الخاصة بك </string>
+    
+    
+    <string name="Copyright19682014MideaGroup">Copyright © 1968-2014 Midea Group.</string>
+    
+    <string name="Allrightreserved">All right reserved</string>
+    <string name="MideaAirConditioning">Midea Air Conditioning</string>
+    
+    <string name="Yourfurtheradvicesuggestions">*Your further advice / suggestions.</string>
+    
+    <string name="Yourphonenumber">*Your phone number</string>
+    
+    <string name="Fan">Fan</string>
+    <string name="Conditioner">المكيف</string>
+    <string name="Discover">إكتشف</string>
+    <string name="Me">أنا</string>
+    
+    <string name="CurrentPassword">Current Password</string>
+    <string name="EnterPassword">Enter Password</string>
+    <string name="ConfirmPassword">Confirm Password</string>
+    <string name="EnteryourEmailaddress">Enter your E-mail address</string>
+    
+    
+    <string name="Deviceisnotconnected">Device is not connected.</string>
+    
+    <string name="ok">موافق</string>
+    <string name="clear">واضح</string>
+    
+    <string name="send">Send</string>
+    <string name="resendactiveemail">Resend active email</string>
+    <string name="sendretrievepasswordemail">Reset Password</string>
+    <string name="pleaseactiveyouraccountbeforeretrievingpassword">Please active your account before retrieving password</string>
+    <string name="top_left_back">back</string>
+    <string name="retrieve_password">Retrieve&#160;password</string>
+    
+    
+    
+    <string name="save">حفظ</string>
+    
+    <string name="electricity_price">Electricity&#160;price</string>
+    <string name="timer">Timer</string>
+    
+    <string name="cassette">Cassette</string>
+    
+    
+    
+    <string name="network">Network</string>
+    <string name="named">Named</string>
+    <string name="done">Done</string>
+    <string name="introduction">Intruduction</string>
+    <string name="log_out">Log&#160;out</string>
+    <string name="terms_and_privacy">Terms&#160;and&#160;Privacy</string>
+    <string name="introductiontitle">Introduction</string>
+    <string name="terms_of_service">Terms&#160;of&#160;Service</string>
+    <string name="and">and</string>
+    <string name="privacy_policy">Privacy&#160;Policy</string>
+    <string name="Primier">Primier</string>
+    
+    <string name="timer_on">Time&#160;On</string>
+    <string name="timer_off">Time&#160;Off</string>
+    <string name="title_activity_device_off">DeviceOffActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="scan_tips">将二维码图片对准扫描框即可自动扫描</string>
+    <string name="title_activity_time_off">TimeOffActivity</string>
+    <string name="title_activity_time_repeat">TimeRepeatActivity</string>
+    
+    
+    <string name="Wind_speed">Wind Speed:</string>
+    <string name="Indoor">Indoor:</string>
+    <string name="Dehumidifier">Dehumidifier</string>
+   <string name="Fail">Fail</string>
+   <string name="PowerOff">PowerOff</string>
+   <string name="The_water_is_full">The water is full</string>
+   <string name="The_water_is_empty">The water is empty</string>
+   <string name="waterdepletion">water Depletion</string>
+   <string name="The_filter_is_dirty">The filter is dirty</string>
+   <string name="Running">Target Humidity</string>
+   <string name="Smart_Mode">Smart Mode</string>
+   <string name="Continuous_Mode">Continuous Mode</string>
+   <string name="Shut_down">Shut down</string>
+   <string name="High">High</string>
+   <string name="Middle">Middle</string>
+   <string name="Mid">Mid</string>
+   <string name="Low">Low</string>
+   <string name="Auto">Auto</string>
+    
+    <string name="The_request_is_over_time_Please_Login">The request is over time. Please Login</string>
+    <string name="Please_activate_your_account_by_clicking_link_in_your_email_address">Please activate your account by opening link sent to your email</string>
+    
+    
+    <string name="Humidifier">Humidifier</string>
+    
+    <string name="ACtype">AC type</string>
+    
+    
+    <string name="introduction_content">&#160;&#160;&#160;&#160;&#160;&#160;Midea Group was set up in 1968, being in the home appliance business since 1980 and had the brand “Midea” registered in 1981. At present, Midea Group has 130, 000 employees and owns a dozen brands including Midea, Little Swan and GMCC. With 20 domestic production bases, it has established manufacturing bases and joint ventures production bases in 6 countries. Besides, Midea Group has set up more than 60 overseas branches and its products are exported to over 200 countries and regions.
+        \n\n&#160;&#160;&#160;&#160;&#160;&#160;The sales revenue of Midea Group in 2013 reached USD 19.5 billion, among which export sales contributed USD 7.4 billion. In 2013 R&amp;F Global Ranking, Midea ranked No.5 in China, its brand value is evaluated to be USD 10.5 billion.</string>
+    
+    <string name="midea_agreement_text">&#160;&#160;&#160;&#160;&#160;&#160;Please read this software license agreement ("license") carefully before using the software. by using the software, you are agreeing to be bound by the terms of this license. if you do not agree to the terms of this license, do not install and/or use the software.if the software was accessed electronically, click disagree/decline".
+        \n\n&#160;&#160;&#160;&#160;&#160;&#160;Article1 General
+        \n\n&#160;&#160;&#160;&#160;&#160;&#160;1.The software, documentation and any fonts accompanying this License whether on disk, in read only memory, onany other media or in any other form (collectively the "Midea Software") are licensed, not sold, to you by GD MIDEA AIR-CONDITIONING EQUIPMENT CO,.LTD("GD Midea") for use only under the terms of this License, and Midea reserves all rights not expressly granted to you. The rightsgranted herein are limited to Midea’s and its licensors' intellectual property rights in the Midea Software and do not include anyother patents or intellectual property rights. You own the media on which the Midea Software is recorded but Midea and/orMidea's licensor(s) retain ownership of the Midea Software itself. The rights granted under the terms of this License include anysoftware upgrades that replace and/or supplement the original Midea Software product, unless such upgrade contains a separatelicense.
+        \n&#160;&#160;&#160;&#160;&#160;&#160;2. Title and intellectual property rights in and to any content displayed by or accessed throughthe Software belong to GD MIDEA. Such content may be protected by copyrightor other intellectual property laws and treaties, and may be subject to terms of use of the third partyproviding such content. Except as otherwise provided in this License, this License does not grant user any rights to use such content nor does it guarantee that such content will continue to be available.
+        \n&#160;&#160;&#160;&#160;&#160;&#160;3.GD Midea, at its discretion, may make available future upgrades or updates to the GD Midea Software for yourcompatible GD Midea-branded home appliance. The GD Midea Software upgrades, if any, may notnecessarily include all existing software features or new features that GD Midea releases for newer or othermodels of home appliance. The terms of this License will govern any software upgrades or updates providedby GD Midea to the original GD Midea Software product, unless such upgrade or update is accompanied by aseparate license in which case you agree that the terms of that license will govern such upgrade orupdate.
+        \n\n&#160;&#160;&#160;&#160;&#160;&#160;Article 2 Rights and Obligations
+        \n\n&#160;&#160;&#160;&#160;&#160;&#160; 1.You are granted a limited, non-transferable, non-exclusive license to install and use the GD Midea Software that you own or control. You may not rent, lease, lend, sell, redistribute or sublicense the GD Midea Software.
+        \n&#160;&#160;&#160;&#160;&#160;&#160;2.The Software may enable access to GD Midea and third party services and web sites(referred to hereafter, collectively and individually, as "Services"). Use of these Services requires Internetaccess, may require you to accept additional terms and conditions and may be subject to additionalfees. Pleasecontact the appropriate service provider directly for technical supportand customer service related to its service.
+        \n&#160;&#160;&#160;&#160;&#160;&#160;3. No Reverse Engineering. You may not, and agree not to or enable others to, copy (except asexpressly permitted by this License or by the Usage Rules if they are applicable to the user), decompile,reverse engineer, disassemble, attempt to derive the source code of, decrypt, modify, or createderivative works of the Software or any services provided by the Software, or any partthereof (except as and only to the extent any foregoing restriction is prohibited by applicable law or tothe extent as may be permitted by the licensing terms governing use of open-sourced componentsincluded with the Midea Software).
+        \n\n&#160;&#160;&#160;&#160;&#160;&#160;Article 3 Disclaimer of Warranties, Limitation of Liability 
+        \n\n&#160;&#160;&#160;&#160;&#160;&#160;1.you expressly acknowledge and agree that, to the extent permitted byapplicable law, use of the gdmidea software and any services performed by oraccessed through the gdmidea software is at your sole risk and that the entire riskas to satisfactory quality, performance, accuracy and effort is with you.
+        \n&#160;&#160;&#160;&#160;&#160;&#160;2. gdmidea does not warrant against interference with your enjoyment of the software and services, that the functions contained in, or services performed or provided by, the software will meet your requirements, that the operation of the software or services will be uninterrupted or error-free, that any services will continue to be made available, that the software or services will be corrected, or that the software will be compatible or work with any third party software, applications or third party services. installation of this software may affect the usability of third party software, applications or third party services.
+        \n&#160;&#160;&#160;&#160;&#160;&#160;3.the account and password are important private data; close attention should be paid to protect them. the password should not be provided to anyone unless being enforced by law; it is recommended to avoid your personal information such as your name, birthday, and telephone number in the password. reasonable measures should be taken to prevent stolen of the password, no warranty is given for the stolen of password.
+        \n&#160;&#160;&#160;&#160;&#160;&#160;4.  to the extent not prohibited by applicable law, in no event shall gdmidea be liable for personal injury, or any incidental, special, indirect orconsequential damages whatsoever, including, without limitation, damages for loss of profits, corruption or loss of data, failure to transmit or receive any data, business interruption or any other commercial damages or losses, arising out of or related to your use or inability to use the gdmidea software and services or any third party software or applications in conjunction with the gdmidea software, however caused, regardless of the theory of liability (contract, tortor otherwise) and even if gdmidea has been advised of the possibility of such damages. some jurisdictions do not allow the exclusion or limitation of liability for personal injury, or of incidental or consequential damages, so this limitation may not apply to you. In no event shall GD Midea's total liability to you for all damages (other than asmay be required by applicable law in cases involving personal injury) exceed the amount of RMB500.00. The foregoing limitations will apply even if the above stated remedy fails of its essentialpurpose.
+        \n\n&#160;&#160;&#160;&#160;&#160;&#160;Article 4 Governing Law and Severability.
+        \n\n&#160;&#160;&#160;&#160;&#160;&#160;This License will be governed by and construed in accordancewith the laws of the People’s Republic of China. This License shall not be governed by the UnitedNations Convention on Contracts for the International Sale of Goods, the application of which isexpressly excluded. If for any reason a court of competent jurisdiction findsany provision, or portion thereof, to be unenforceable, the remainder of this License shall continue in fullforce and effect.
+        \n\n&#160;&#160;&#160;&#160;&#160;&#160;Article 5 Others
+        \n\n&#160;&#160;&#160;&#160;&#160;&#160;No amendment to or modification of this License will be binding unless in writing and signed byGD Midea. Any translation of this License is done for local requirements and in the event of a dispute between the Chinese and anynon-Chinese versions, the Chinese version of this License shall govern.</string>
+    
+</resources>

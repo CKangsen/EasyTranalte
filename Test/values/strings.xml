@@ -1,7 +1,1886 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="app_name">OtaService</string>
-	<string name="anim_time">200</string>
-	<string name="system_update">System upgrade</string>
-	<string name="check_new_version">Find a new version. Download it?</string>
+    <string name="app_name">NetHome Plus</string>
+    <string name="rate_app">Rate NetHome Plus</string>
+    <string name="introduction_content">1.APP supports the latest software version of Android and IOS system.
+        \n\n2.Due to special situations that may occur, the manufacturer explicitly claims:
+        \n\n3.Not all of the Android and IOS systems are compatible with APP. The manufacturer will not bear any responsibility for any issue as a result of the incompatibility.
+        \n\n<b>WIRELESS NETWORK TYPE</b>
+        \n\n1.The WiFi kits are only supported by WPAPSK/WPA2PSK encryption and no encryption.WPAPSK/WPA2PSK encryption is recommended.
+        \n\n<b>CAUTION</b>
+        \n\n1.Please check the router website for more information.
+        \n\n2.Smart phone cameras require a minimum of 5 million pixels to ensure the QR code is scanned appropriately.
+        \n\n3.Due to different network configurations, request timeouts may occur thus it may be necessary to configure the network again. Please attempt to use the app or function inside the app again before reconfiguring the app.
+        \n\n4.Due to different network configurations, the control process may occasionally timeout. If this situation occurs, please attempt to use the app or function inside the app again. If this is unsuccessful, reconfiguring the app may be necessary. If the timeout error continues, reinstall  the  APP  and  check  your network connection.
+        \n\n5.If this situation occurs, the display between the board and App may differ.
+        \n\n<b>NOTE:</b>  Manufacturer will not be liable for any issues or problems caused by the Internet, WiFi Router or smart devices. Please contact the original provider to get additional support.
+        \n\n<b>HOW TO USE THE APP</b>
+        \n\nBasic Functions
+        \n\n<b>IMPORTANT:</b> Prior to using the app, verify that both your mobile device and ductless system are connected to the Internet.
+        \n\n1.Log into the app.
+        \n\n2.Select the desired ductless system to enter the main control interface.
+        \n\n3.From the main control interface the user can control the ductless system\’s on/off status, operation mode, temperature, fan speed, etc. by touching the buttons at the bottom of the screen.
+        \n\n<b>NOTE:</b>  Not all functions are available for every ductless system.
+        \n\n<b>Cautions</b>
+        \n\n1.The WiFi kit complies with 47cfr subpart 15 and RSS 210 of the Industry and Science of Canada. Operation is subject to the following conditions:
+        \n\n•	This device must not cause a harmful interference.
+        \n•	This device must not accept any interference received, including interference that may cause undesired operation.
+        \n•	Only operate the device in accordance with the instructions provided.
+        \n\n2.The WiFi kit complies with FCC and IC electromagnetic radiation limits set forth for an residential environment. To avoid the possibility of exceeding the FCC and/or IC radio electromagnetic radiation limits, human proximity to the antenna shall not be less than 8 inches (20cm) during normal operation.
+        \n\n3.Changes or modifications not expressly approved by the manufacturer could void the user\’s authority to operate the equipment.
+    </string>
+    <string name="mail">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="password_do_not_match">Passwords do not match</string>
+    <string name="sign_in">Sign in</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="sign_up">Create Account</string>
+    <string name="email_address">Enter your Email address</string>
+    <string name="registration">Register</string>
+    <string name="i_have_read_and_agree_to">I have read and agree to</string>
+    <string name="the_terms_of_service">&#160;the terms and privacy</string>
+    <string name="no_autoDehumi_function">Automatic dehumidification is not supported at this device.</string>
+    <string name="addDevice">Add Device</string>
+    <string name="addSharedDevice">Add Shared Device</string>
+    <string name="Offline">Offline</string>
+    <string name="Deviceisoffline">Device is offline.</string>
+    <string name="title_device_is_offline">Device is offline</string>
+    <string name="WindSpeedcannotbechangedunderAutoDrymode">Fan speed cannot be changed in Auto or Dry mode</string>
+    <string name="Strongisnotsupportedatthismode">Boost is not supported in this mode</string>
+    <string name="ECOcanbeusedonlyundercoolmode">Eco can not be used under current mode</string>
+    <string name="TemperaturecanntbechangedunderFanmode">Temperature can\'t be changed under Fan mode</string>
+    <string name="AUTO">Auto</string>
+    <string name="COOL">Cool</string>
+    <string name="DRY">Dry</string>
+    <string name="HEAT">Heat</string>
+    <string name="FAN">Fan</string>
+    <string name="function">Function</string>
+    <string name="Timeron">Timer On</string>
+    <string name="Timeroff">Timer Off</string>
+    <string name="Mon">Mon.</string>
+    <string name="Tues">Tues.</string>
+    <string name="Wed">Wed.</string>
+    <string name="Thur">Thur.</string>
+    <string name="Fri">Fri.</string>
+    <string name="Sat">Sat.</string>
+    <string name="Sun">Sun.</string>
+    <string name="MonTuesWedThurFriSatSun">Mon.Tues.Wed.Thur.Fri.Sat.Sun.</string>
+    <string name="Everyday">Everyday</string>
+    <string name="Sleep">Sleep Curve</string>
+    <string name="energy">Energy Monitor</string>
+    <string name="check">Check</string>
+    <string name="heat8">8°C Heat</string>
+    <string name="limit_power">Bill Control</string>
+    <string name="Units">Units</string>
+    <string name="unit">°C</string>
+    <string name="about_device">About Device</string>
+    <string name="share_device">Shared QR code</string>
+    <string name="delete">Delete</string>
+    <string name="Sleepfunctioncanbeusedonlyundercoolandheatmode">Sleep function can only be used in Cool or Heat mode.</string>
+    <string name="Sleepfunctioncantbeusedunder8Heat">Sleep function cannot be used below 46°F or 8°C</string>
+    <string name="EightHeatisnotsupportinthisdevice">EightHeat isn\'t support in this device</string>
+    <string name="CustomDryisnotsupportinthisdevice">Custom Dry isn\'t support in this device</string>
+    <string name="Repeat">Repeat</string>
+    <string name="Monday">Monday</string>
+    <string name="Tuesday">Tuesday</string>
+    <string name="Wednesday">Wednesday</string>
+    <string name="Thursday">Thursday</string>
+    <string name="Friday">Friday</string>
+    <string name="Saturday">Saturday</string>
+    <string name="Sunday">Sunday</string>
+    <string name="Edit">Edit</string>
+    <string name="Young">Young</string>
+    <string name="Older">Older</string>
+    <string name="Children">Children</string>
+    <string name="Lowest">Lowest</string>
+    <string name="Highest">Highest</string>
+    <string name="Electricity">Electricity</string>
+    <string name="In">In</string>
+    <string name="Electricclearsuccess">Electric clear success!</string>
+    <string name="Thisfunctionisonlyavailableforinverterbasedairconditioner">This function is only available for inverter-based air conditioner.</string>
+    <string name="passthismonth">pass this month!</string>
+    <string name="Whethertoremoveserverelectricquantitydata">Whether to remove server electric quantity data?</string>
+    <string name="Confirm">Confirm</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Scanning">Scanning</string>
+    <string name="Testing">Testing</string>
+    <string name="Normal">Normal</string>
+    <string name="Abnormal">Abnormal</string>
+    <string name="Done">Done</string>
+    <string name="details">Detail</string>
+    <string name="information">Information</string>
+    <string name="DeleteSuccessfully">Device successfully deleted</string>
+    <string name="Pleaseinputfullname">Username cannot be blank.</string>
+    <string name="device_name_cant_exceed_19_characters">Device name cannot exceed 19 characters</string>
+    <string name="UpdateSuccess">Update successful</string>
+    <string name="itisnothaveDevicestodelete">it\'s not have Devices to delete!</string>
+    <string name="Suretodelete">Are you sure you want to delete your device?</string>
+    <string name="hours">Hours</string>
+    <string name="ProfilePhoto">Profile Photo</string>
+    <string name="FullName">Full Name</string>
+    <string name="Servicetime">Service time</string>
+    <string name="Productiondate">Production date</string>
+    <string name="Terminalbarcode">Terminal barcode</string>
+    <string name="Delete">Delete</string>
+    <string name="setting">Setting</string>
+    <string name="check_for_update">Check for update</string>
+    <string name="about">About</string>
+    <string name="More">More</string>
+    <string name="LogOut">Sign out</string>
+    <string name="suretodownloadlastestApp">sure to download latest App!</string>
+    <string name="Takepicture">Take picture</string>
+    <string name="Fromthealbum">From the album</string>
+    <string name="qr_code">QR Code</string>
+    <string name="pictrues">Pictures</string>
+    <string name="AligntheQRcodewithintheframetoscan">Align the QRcode within the frame to scan</string>
+    <string name="Addedsuccessfully">Added successfully !</string>
+    <string name="Youcanstartcontrol">You can start control.</string>
+    <string name="Sound">Sound</string>
+    <string name="PushMessages">Push Messages</string>
+    <string name="about_me">Me</string>
+    <string name="Usernamecantexceed20characters">Username can\'t exceed 35 characters</string>
+    <string name="AirConditioningApp">Air Conditioning App</string>
+    <string name="TermsandPrivacy">Terms and Privacy</string>
+    <string name="pleasecleanthefilter">Please clean the filter</string>
+    <string name="Clean">Clean</string>
+    <string name="Advise">Advise</string>
+    <string name="registered">Registered</string>
+    <string name="m_floor_standing">M floor standing</string>
+    <string name="Passwordchangeissuccessfulpleaseloginagain">Password change successful, sign in again.</string>
+    <string name="Pleaseentertheoldpassword">Current password cannot be blank!</string>
+    <string name="Pleaseenterthenewpassword">New password cannot be blank!</string>
+    <string name="Pleaseentertheconfirmpassword">New passwords do not match!</string>
+    <string name="Pleasetypeinthepasswordlengthof6to20">Password must be 6-20 characters long!</string>
+    <string name="Thepasswordandconfirmpassworsisinconformity">New passwords do not match!</string>
+    <string name="thenewpasswordcannotbethesameasthecurrentppassword">The new password can not be the same as the current password!</string>
+    <string name="Emailaccountcannotbeempty">E-mail address field cannot be empty!</string>
+    <string name="Emailaccountformatisnotcorrect">E-mail address format is incorrect!</string>
+    <string name="Passwordresetsuccessfullypleaseloginemailchangepassword">Password reset successfully,please sign in email change password!</string>
+    <string name="activeemailsendsuccessfullypliaseloginemailtoactiveaccout">Active email send successfully ,please login email to active account！!</string>
+    <string name="Pleaseenterusername">Please enter user name!</string>
+    <string name="Pleaseenterpassword">Please enter password!</string>
+    <string name="clicktwicetoexit">click twice to exit!</string>
+    <string name="Succeed">Succeed!</string>
+    <string name="Accountorpasswordcannotbeempty">Account and password fields cannot be empty!</string>
+    <string name="troubleshooting">Trouble Shooting</string>
+    <string name="Loading">Loading...</string>
+    <string name="TimeOut">Time Out</string>
+    <string name="TempUnitisnotsupportatthisdevice">Temperature Unit can not be changed at this device</string>
+    <string name="LeftorRightoffanisnotsupportedatthisdevice">Left or Right of fan is not supported at this device.</string>
+    <string name="UpDownfanisnotsupportedatthisdevice">Up and Down of fan is not supported at this device.</string>
+    <string name="ECOisnotsupportedatthisdevice">ECO is not supported at this device.</string>
+    <string name="Energyisnotsupportedatthisdevice">Energy is not supported at this device.</string>
+    <string name="AddedsuccessfullyYoucanstartcontrol">Added successfully ！You can start control.</string>
+    <string name="dry_mode_is_not_supported_at_this_device">Dry mode is not supported by this device.</string>
+    <string name="auto_mode_is_not_supported_at_this_device">Auto mode is not supported by this device.</string>
+    <string name="heat_mode_is_not_supported_at_this_device">Heat mode is not supported by this device.</string>
+    <string name="Cool_mode_is_not_supported_at_this_device">Cool mode is not supported by this device.</string>
+    <string name="PleasechoosetheWifi">Please choose the Wi-Fi.</string>
+    <string name="Succeedtocancel">Succeed to cancel.</string>
+    <string name="CustomerService">Customer Service</string>
+    <string name="AirconditionwanttouseyourWiFi">Air Monitor want to use your Wi-Fi</string>
+    <string name="copyright">Copyright © 1968-%1$s Midea Group.</string>
+    <string name="Allrightreserved">All right reserved</string>
+    <string name="MideaAirConditioning">Midea Air Conditioning</string>
+    <string name="Yourfurtheradvicesuggestions">*Your further advice / suggestions.</string>
+    <string name="Yourphonenumber">*Your phone number</string>
+    <string name="Fan">Fan</string>
+    <string name="Conditioner">Conditioner</string>
+    <string name="Discover">Discover</string>
+    <string name="Me">Me</string>
+    <string name="CurrentPassword">Current Password</string>
+    <string name="EnterPassword">Enter new Password</string>
+    <string name="ConfirmPassword">Confirm new Password</string>
+    <string name="EnteryourEmailaddress">Enter your E-mail address</string>
+    <string name="Deviceisnotconnected">Device is not connected.</string>
+    <string name="ok">Confirm</string>
+    <string name="clear">Clear</string>
+    <string name="send">Send</string>
+    <string name="resendactiveemail">Resend activation email</string>
+    <string name="sendretrievepasswordemail">Reset Password</string>
+    <string name="pleaseactiveyouraccountbeforeretrievingpassword">Please activate your account before retrieving password</string>
+    <string name="top_left_back">back</string>
+    <string name="retrieve_password">Retrieve password</string>
+    <string name="save">Save</string>
+    <string name="electricity_price">Electricity price</string>
+    <string name="timer">Timer</string>
+    <string name="cassette">Cassette</string>
+    <string name="network">Network</string>
+    <string name="named">Named</string>
+    <string name="done">Done</string>
+    <string name="introduction">Introduction</string>
+    <string name="log_out">Sign Out</string>
+    <string name="terms_and_privacy">Terms and Privacy</string>
+    <string name="introductiontitle">Introduction</string>
+    <string name="written_off">Written off</string>
+    <string name="terms_of_service">Terms of Service</string>
+    <string name="and">and</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="Primier">Primier</string>
+    <string name="timer_on">Time On</string>
+    <string name="timer_off">Time Off</string>
+    <string name="title_activity_device_off">DeviceOffActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="scan_tips">Note: Wait 5 – 10 seconds while your device is in AP mode before scanning the QR code.</string>
+    <string name="title_activity_time_off">TimeOffActivity</string>
+    <string name="title_activity_time_repeat">TimeRepeatActivity</string>
+    <string name="Wind_speed">Fan Speed:</string>
+    <string name="Indoor">Indoor:</string>
+    <string name="Humidity">Humidity:</string>
+    <string name="Room_Humidity">Room Humidity:</string>
+    <string name="Dehumidifier">Dehumidifier</string>
+    <string name="Fail">Fail</string>
+    <string name="PowerOff">PowerOff</string>
+    <string name="off">OFF</string>
+    <string name="The_water_is_full">The water is full</string>
+    <string name="The_water_is_empty">The water is empty</string>
+    <string name="waterdepletion">Water Depletion</string>
+    <string name="The_filter_is_dirty">The filter is dirty</string>
+    <string name="Running">Target Humidity</string>
+    <string name="Smart_Mode">Smart Mode</string>
+    <string name="dry_clothes_Mode">Dry Clothes Mode</string>
+    <string name="Continuous_Mode">Continuous Mode</string>
+    <string name="anti_mould">Anti-mould</string>
+    <string name="air_purifier">Air Purifier</string>
+    <string name="Shut_down">Shut down</string>
+    <string name="High">High</string>
+    <string name="Middle">Middle</string>
+    <string name="Mid">Mid</string>
+    <string name="Low">Low</string>
+    <string name="Med">Med</string>
+    <string name="Auto">Auto</string>
+    <string name="dm_fan_high">High Fan</string>
+    <string name="dm_fan_mid">Middle Fan</string>
+    <string name="dm_fan_low">Low Fan</string>
+    <string name="The_request_is_over_time_Please_Login">The request is over time. Please Login</string>
+    <string name="Please_activate_your_account_by_clicking_link_in_your_email_address">Please activate your account by clicking link in your email address. If you did not receive the registration email, you can check the spam email or try to sign in directly with the registered account information.</string>
+    <string name="Humidifier">Humidifier</string>
+    <string name="midea_agreement_text">      Please read this software license agreement ("license") carefully before using the software. by using the software, you are agreeing to be bound by the terms of this license. if you do not agree to the terms of this license, do not install and/or use the software.if the software was accessed electronically, click disagree/decline".
+        \n\n      Article1 General
+        \n\n      1.The software, documentation and any fonts accompanying this License whether on disk, in read only memory, on any other media or in any other form (collectively the "Midea Software") are licensed, not sold, to you by GD MIDEA AIR-CONDITIONING EQUIPMENT CO,.LTD("GD Midea") for use only under the terms of this License, and Midea reserves all rights not expressly granted to you. The rights granted herein are limited to Midea’s and its licensors\' intellectual property rights in the Midea Software and do not include any other patents or intellectual property rights. You own the media on which the Midea Software is recorded but Midea and/orMidea\'s licensor(s) retain ownership of the Midea Software itself. The rights granted under the terms of this License include any software upgrades that replace and/or supplement the original Midea Software product, unless such upgrade contains a separate license.
+        \n      2. Title and intellectual property rights in and to any content displayed by or accessed through the Software belong to GD MIDEA. Such content may be protected by copyright or other intellectual property laws and treaties, and may be subject to terms of use of the third party providing such content. Except as otherwise provided in this License, this License does not grant user any rights to use such content nor does it guarantee that such content will continue to be available.
+        \n      3.GD Midea, at its discretion, may make available future upgrades or updates to the GD Midea Software for your compatible GD Midea-branded home appliance. The GD Midea Software upgrades, if any, may not necessarily include all existing software features or new features that GD Midea releases for newer or other models of home appliance. The terms of this License will govern any software upgrades or updates provided by GD Midea to the original GD Midea Software product, unless such upgrade or update is accompanied by as eparate license in which case you agree that the terms of that license will govern such upgrade or update.
+        \n\n      Article 2 Rights and Obligations
+        \n\n       1.You are granted a limited, non-transferable, non-exclusive license to install and use the GD Midea Software that you own or control. You may not rent, lease, lend, sell, redistribute or sublicense the GD Midea Software.
+        \n      2.The Software may enable access to GD Midea and third party services and web sites(referred to hereafter, collectively and individually, as "Services"). Use of these Services requires Internet access, may require you to accept additional terms and conditions and may be subject to additional fees. Please contact the appropriate service provider directly for technical support and customer service related to its service.
+        \n      3. No Reverse Engineering. You may not, and agree not to or enable others to, copy (except as expressly permitted by this License or by the Usage Rules if they are applicable to the user), decompile,reverse engineer, disassemble, attempt to derive the source code of, decrypt, modify, or create derivative works of the Software or any services provided by the Software, or any part there of (except as and only to the extent any foregoing restriction is prohibited by applicable law or to the extent as may be permitted by the licensing terms governing use of open-sourced component sincluded with the Midea Software).
+        \n\n      Article 3 Disclaimer of Warranties, Limitation of Liability 
+        \n\n      1.you expressly acknowledge and agree that, to the extent permitted by applicable law, use of the GD Midea software and any services performed by or accessed through the GD Midea software is at your sole risk and that the entire risk as to satisfactory quality, performance, accuracy and effort is with you.
+        \n      2. GD Midea does not warrant against interference with your enjoyment of the software and services, that the functions contained in, or services performed or provided by, the software will meet your requirements, that the operation of the software or services will be uninterrupted or error-free, that any services will continue to be made available, that the software or services will be corrected, or that the software will be compatible or work with any third party software, applications or third party services. installation of this software may affect the usability of third party software, applications or third party services.
+        \n      3.the account and password are important private data; close attention should be paid to protect them. the password should not be provided to anyone unless being enforced by law; it is recommended to avoid your personal information such as your name, birthday, and telephone number in the password. reasonable measures should be taken to prevent stolen of the password, no warranty is given for the stolen of password.
+        \n      4.  to the extent not prohibited by applicable law, in no event shall GD Midea be liable for personal injury, or any incidental, special, indirect or consequential damages whatsoever, including, without limitation, damages for loss of profits, corruption or loss of data, failure to transmit or receive any data, business interruption or any other commercial damages or losses, arising out of or related to your use or inability to use the GD Midea software and services or any third party software or applications in conjunction with the GD Midea software, however caused, regardless of the theory of liability (contract, tortor otherwise) and even if gdmidea has been advised of the possibility of such damages. some jurisdictions do not allow the exclusion or limitation of liability for personal injury, or of incidental or consequential damages, so this limitation may not apply to you. In no event shall GD Midea's total liability to you for all damages (other than as may be required by applicable law in cases involving personal injury) exceed the amount of RMB500.00. The foregoing limitations will apply even if the above stated remedy fails of its essential purpose.
+        \n\n      Article 4 Governing Law and Sever ability.
+        \n\n      This License will be governed by and construed in accordance with the laws of the People’s Republic of China. This License shall not be governed by the UnitedNations Convention on Contracts for the International Sale of Goods, the application of which is expressly excluded. If for any reason a court of competent jurisdiction finds any provision, or portion thereof, to be unenforceable, the remainder of this License shall continue in full force and effect.
+        \n\n      Article 5 Others
+        \n\n      No amendment to or modification of this License will be binding unless in writing and signed byGD Midea. Any translation of this License is done for local requirements and in the event of a dispute between the Chinese and any non-Chinese versions, the Chinese version of this License shall govern.</string>
+    <string name="auto_wind">Auto Wind</string>
+    <string name="prompt">Account not found</string>
+    <string name="check_error">Please check and try again.</string>
+    <string name="confirm">OK</string>
+    <!-- 忘记密码标题 -->
+    <string name="forgot_password_title">Retrieve password</string>
+    <!-- 主页面第一个选项 -->
+    <string name="Appliance">Appliance</string>
+    <!-- 选头像的title -->
+    <string name="photo_dialog_choose">Choose</string>
+    <string name="take_photo">Take picture</string>
+    <string name="from_Photo">From the Album</string>
+    <!-- 昵称 -->
+    <string name="nickname">Name</string>
+    <string name="water_full">The water is full</string>
+    <!-- 功能说明 -->
+    <string name="power">Power</string>
+    <string name="mode">Mode</string>
+    <string name="wind">Fan Speed</string>
+    <string name="naturalflow">Silky Cool</string>
+    <string name="smart_eye">ECO Intelligent Eye</string>
+    <string name="luffing">Horizontal S</string>
+    <string name="swing">Vertical S</string>
+    <string name="direction">Direction</string>
+    <string name="direction_four">Swing</string>
+    <string name="eco">ECO</string>
+    <string name="sleep">Sleep Curve</string>
+    <string name="turbo">Boost</string>
+    <string name="heat_8">FP</string>
+    <string name="personality_pumping">Custom Dry</string>
+    <string name="self_clean">Active Clean</string>
+    <string name="breeze_away">Breeze Away</string>
+    <string name="breeze_mild">Breeze Mild</string>
+    <string name="breeze_less">Breezeless</string>
+    <string name="express">Express run</string>
+    <string name="express_settings">Express run Setting</string>
+
+    <string name="add_air_conditioner">Add Air conditioner</string>
+    <string name="add_dehumidifier">Add Dehumidifier</string>
+    <string name="add_humidifier">Add Humidifier</string>
+    <string name="add_airball">Add Air Monitor</string>
+    <string name="add_bracelet">Add Bracelet</string>
+    <!-- about -->
+    <string name="features">Features</string>
+    <string name="sleep_curve_tip">The default curve is recommended. However, if you would like to customize the sleep curve, then turn on the Custom Slider.</string>
+    <string name="custom_curve">Custom</string>
+    <string name="device_name">Device name</string>
+    <string name="wind_speed">Wind Speed</string>
+    <string name="test_params">Testing Parameter</string>
+    <string name="test_items">Test items</string>
+    <string name="fault_info">Fault information</string>
+    <string name="Delete_device">Delete device</string>
+    <string name="ask_you">Are you sure?</string>
+    <string name="delete_device_content">Are you sure you want to delete your device?</string>
+    <string name="delete_device_successful">Device successfully deleted</string>
+    <string name="yes_but">YES</string>
+    <string name="no_but">NO</string>
+    <string name="phoneaccountformatisnotcorrect">Phone account format is not correct!</string>
+    <string name="register_susscus">Registered successfully</string>
+    <string name="timer_end">When Timer ends</string>
+    <string name="keep_running">Keep running</string>
+    <string name="month_power">Monthly Cumulative(kW·h)</string>
+    <string name="day_power">Today Cumulative(kW·h)</string>
+    <string name="real_power">Real-time Power(W)</string>
+    <string name="record_power">Record(kW·h)</string>
+    <string name="record">Record</string>
+    <string name="virtual">AC</string>
+    <string name="next">Next</string>
+    <string name="wifi_title">Wi-Fi HotSpot</string>
+    <string name="time">Time</string>
+    <string name="limit">Limit</string>
+    <string name="month_energy">July Energy(kW·h)</string>
+    <string name="humidity">Humidity</string>
+    <string name="switch_func">Switch</string>
+    <string name="choose_method">Choose Method</string>
+    <string name="add_method">Select Appliance Type</string>
+    <string name="scan">Scan QR code</string>
+    <string name="manual">Manual Setup</string>
+    <string name="wind_value">Fan</string>
+    <string name="clean">Cleaning filter</string>
+    <string name="outdoor">Outdoor:</string>
+    <string name="on">ON</string>
+    <string name="please_connect">Please connect to the device router hotspot</string>
+    <string name="please_connect_home">Please connect to the home router hotspot</string>
+    <string name="title_Prompt">Prompt</string>
+    <string name="exception">Sorry, the program will exit abnormal.</string>
+    <string name="outr">Sorry, out of range can not be adjusted</string>
+    <string name="y_label">kW·h</string>
+    <string name="Pleaseinputpass">Please input a password.</string>
+
+    <string name="open_sleep">Sleep Curve Open</string>
+    <string name="close_sleep">Sleep Curve Close</string>
+    <string name="virtual_fan">Fan Speed 52</string>
+
+    <string name="down_limit">Beyond the lower limit</string>
+    <string name="up_limit">Beyond the upper limit</string>
+
+    <string name="nowindcanbechangedundercool">Silky Cool is only available under cool mode.</string>
+    <string name="functioncanbechangedundercool">This function can only use in cool mode.</string>
+    <!-- 限额第一次请求 -->
+    <string name="request_limit_powe_range">Please wait for data loading, it will cost a few minutes. Please note that it just occurs when you first time use Bill Control function.</string>
+    <!-- 请求超时 -->
+    <string name="request_out">Request server time out.</string>
+
+    <string name="choose_date">Please select at least one repeat week</string>
+    <string name="no_space_name">Username cannot be blank</string>
+    <string name="no_space">space character can not be used as password letter.</string>
+
+    <string name="action_save">Save</string>
+    <string name="register_commit">Submit</string>
+    <string name="action_bar_back">Back</string>
+    <string name="dialog_confirm">Confirm </string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="accomplish">Done</string>
+
+    <!--登陆注册-->
+    <string name="set_password">Set password</string>
+    <string name="log_in_string">Sign in</string>
+    <string name="register_mi">Xiaomi</string>
+    <string name="register_wx">WeChat</string>
+    <string name="register_qq">QQ</string>
+    <string name="register_wb">Weibo</string>
+    <string name="login_phone_hint">Enter a username (or M-Smart login)</string>
+    <string name="register_phone_hint">Enter a phone number</string>
+    <string name="login_password_hint">Enter a password</string>
+    <string name="login_forget_password">Problems logging in?</string>
+    <string name="login_other_to">Use third-party login</string>
+    <string name="login_experience"><u>Skip registration and use demo mode</u></string>
+    <string name="register_next">Next</string>
+    <string name="register_send_verification_code_again">Resend verification code</string>
+    <string name="register_verification_code">Enter verification code</string>
+    <string name="register_agreement_one">Registering means you agree to </string>
+    <string name="register_agreement_two">Midea\'s Service User Agreement </string>
+    <string name="register_agreement_three">and </string>
+    <string name="register_agreement_four">Privacy Policy</string>
+    <string name="log_in_from_verification_code">Reset password</string>
+    <string name="log_in_from_verification_code_send">SMS verification code sent. Please enter it.</string>
+    <string name="log_in_from_verification_code_input">Enter verification code</string>
+    <string name="log_in_set_forget_password">Set password</string>
+    <string name="log_in_set_password_one">Please set a password</string>
+    <string name="log_in_set_password_two">Enter it again</string>
+    <string name="log_in_set_password_top">Enter 6-16 letters or numbers</string>
+    <string name="dialog_forget_password_confirm">Confirm mobile number</string>
+    <string name="dialog_forget_password_content">An SMS verification code will be sent to:</string>
+    <string name="defualt_user_nick_name">Midea user</string>
+
+
+    <!--Top-->
+    <string name="top_phone_empty">Phone number is left blank. Enter a number.</string>
+    <string name="top_verification_code_empty">Verification code cannot be left blank. Enter the code.</string>
+    <string name="log_in_phone_empty">Phone number cannot be left blank. Enter a number.</string>
+    <string name="log_in_phone_eleven">Your phone number is not 11 digits</string>
+    <string name="log_in_password_empty">Password cannot be left blank. Enter a password.</string>
+    <string name="log_in_phone_error">Phone number error. Please check and try again.</string>
+    <string name="register_password_error">Password error. Enter a password with 6-16 letters or numbers.</string>
+    <string name="set_password_no_equal">Passwords do not match</string>
+    <string name="register_verification_error">Today\'s verification code limit reached. Try again tomorrow.</string>
+    <string name="dialog_loading">   Signing in...</string>
+    <string name="dialog_login_suc">   Signed in</string>
+    <string name="dialog_login_fau">   Sign in failed</string>
+    <string name="password_error_tip">Enter a password with 6&#8211;16 letters or numbers</string>
+    <string name="change_password_equal">New password is the same as the old password</string>
+
+    <string name="dialog_send_verification_code">Sending verification code...</string>
+    <string name="dialog_submit_verification_code">Submitting verification code...</string>
+    <string name="dialog_set_password">Setting password...</string>
+    <string name="dialog_register">Registering...</string>
+    <string name="more_setting_suggestion_feedback">Feedback</string>
+    <string name="more_setting_two_dimension_code">Scan QR code</string>
+
+    <!--底部的bar-->
+    <string name="nav_bar_home">Home screen</string>
+    <string name="nav_bar_device">Devices</string>
+    <string name="nav_bar_more">Applications</string>
+    <string name="nav_bar_voice">Interaction</string>
+    <string name="nav_bar_feedback">Suggestions</string>
+
+    <!--"更多"页面-->
+    <string name="more_setting_advice_feedback">Feedback</string>
+    <string name="more_setting_use_help">Help</string>
+    <string name="more_setting_air_expert">Air Expert</string>
+    <string name="more_setting_software_update">Check for updates</string>
+    <string name="more_setting_my_message">My Notifications</string>
+    <string name="more_setting_about">About</string>
+    <string name="more_setting_location">GPS On/Off</string>
+    <string name="more_setting_electricity">Power</string>
+    <string name="more_setting_air_report">Air report</string>
+    <string name="more_setting_location_logging">On/Off logs</string>
+    <string name="more_setting_brainpower_logging">Connection logs</string>
+    <string name="more_default_name">Name</string>
+    <string name="more_default_id">ID:000001</string>
+    <string name="more_default_item">My points</string>
+    <string name="more_setting_brainpower">Smart connection</string>
+    <string name="more_setting_new_brainpower">New connection</string>
+    <string name="more_setting_modified_brainpower">Edit connection</string>
+    <string name="more_setting_new_brainpower_select_room">Select room</string>
+    <string name="more_setting_new_brainpower_perform_task">Operation tasks</string>
+    <string name="more_setting_new_brainpower_start_condition">Start conditions</string>
+    <string name="more_setting_check_brainpower">Smart inspection</string>
+    <string name="more_setting_change_new_pw">New password:</string>
+    <string name="more_setting_change_old_pw">Old password:</string>
+    <string name="more_setting_change_old_pw_error_hint">Old password error. Try again.</string>
+    <string name="more_setting_change_pw_hint">6-16 characters (case sensitive)</string>
+    <string name="dialog_change_password">Updating password...</string>
+    <string name="dialog_change_password_success">Password updated</string>
+    <string name="more_setting_advice_feedback_commit_success">Suggestions submitted</string>
+    <string name="more_setting_change_pw">Change password</string>
+    <string name="more_setting_about_catchword">Air control for a better life</string>
+    <string name="more_setting_about_wxq">WeChat interaction group:</string>
+    <string name="more_setting_about_wxh">Official WeChat account: mideamsmart</string>
+    <string name="more_setting_about_qqq">QQ group: 148225372</string>
+    <string name="more_setting_about_customer_hot_line">Customer Hotline %1$s</string>
+    <string name="more_setting_about_Copyright_by_midea">Copyright@1968-%1$s Midea Group</string>
+    <string name="more_setting_about_all_right">All rights reserved</string>
+    <string name="more_setting_software_update_loading">Checking for updates...</string>
+    <string name="more_setting_software_update_no">You have the latest version</string>
+    <string name="more_setting_software_update_loadandinstall">Download and install</string>
+    <string name="more_setting_software_update_content1">SmartControl 2.0</string>
+    <string name="more_setting_software_update_content2">This update includes the following fixes:</string>
+    <string name="more_setting_software_update_content3">1. Apple Music: Playlist are now preserved when offline,\nimprovements to songs and data consumption for classical music\n2. Mail: Large attachments can be sent via Mail Drop</string>
+    <string name="more_setting_use_help_one">How do I connect to an AC?</string>
+    <string name="more_setting_use_help_two">How does an AC become connected?</string>
+    <string name="more_setting_use_help_three">How do I update apps?</string>
+    <string name="more_setting_use_help_four">What do I do when the connection drops?</string>
+    <string name="more_setting_air_expert_report">Midea SmartControl data monitoring report:</string>
+    <string name="more_setting_air_expert_report_one">Your AC was set at 25-27℃ over the last 7 days</string>
+    <string name="more_setting_air_expert_report_two"> Name obtained:</string>
+    <string name="more_setting_air_expert_report_name">Health Expert</string>
+    <string name="more_setting_air_expert_hour">Hour(s)</string>
+    <string name="share_hint_title">Share with</string>
+    <string name="share_hint_qq">QQ friend</string>
+    <string name="share_hint_wx">WeChat friend</string>
+    <string name="share_hint_pyq">WeChat friend group</string>
+    <string name="share_hint_wb">Weibo</string>
+    <string name="more_setting_location_environment">Environment On/Off</string>
+    <string name="more_setting_location_mylocation">Home location</string>
+    <string name="more_setting_location_mylocation_result">Lingang Rd., Shunde Dist.</string>
+    <string name="more_setting_location_scene">Start-up preferences</string>
+    <string name="more_setting_location_start_device">Turn on in advance</string>
+    <string name="more_setting_location_stop_device">Turn off when not at home</string>
+    <string name="more_setting_location_device_state">Appliance status:</string>
+    <string name="more_setting_location_distance_home">Current distance from home:</string>
+    <string name="more_setting_location_own_state">At home</string>
+    <string name="more_setting_check_brainpower_history">Last inspection was 3 days ago. Inspection recommended.</string>
+    <string name="more_setting_check_brainpower_check_device">Inspect appliances</string>
+    <string name="more_setting_check_brainpower_check_parameter">Inspect parameters</string>
+    <string name="more_setting_check_brainpower_check_precontract">Schedule inspection</string>
+    <string name="more_check_order_start">Create schedule</string>
+    <string name="more_check_order_repeat">Repeat</string>
+    <string name="more_check_repair">One-touch repair</string>
+    <string name="more_setting_check_brainpower_check_start">Begin inspection</string>
+    <string name="more_setting_check_brainpower_check_start_ing">Inspecting...</string>
+    <string name="more_setting_electricity_monthly_statement">Monthly cut-off date</string>
+    <string name="more_setting_electricity_monthly_quota">Power usage limit</string>
+    <string name="more_setting_electricity_monthly_remind">Power usage limit reminder</string>
+    <string name="more_setting_electricity_use_remind">Remind me when monthly power usage limit reaches 90%%</string>
+    <string name="more_setting_electricity_gejiadiandianliang">Appliance usage (kWh)</string>
+    <string name="more_setting_electricity_lishidianliang">Historic usage (kWh)</string>
+    <string name="more_setting_24_curve_indoor_humidity_title">Indoor humidity</string>
+    <string name="more_setting_24_curve_indoor_temp_title">Indoor temperature</string>
+    <string name="more_setting_24_curve_indoor_PM_title">Indoor PM2.5</string>
+    <string name="more_setting_24_curve_indoor_temp">Indoor temperature (℃)</string>
+    <string name="more_setting_24_curve_indoor_temp_average">00/00 daily average: 00℃</string>
+    <string name="more_setting_24_curve_indoor_humidity">Indoor humidity (%%)</string>
+    <string name="more_setting_24_curve_indoor_humidity_average">00/00 daily average: 00%%</string>
+    <string name="more_setting_24_curve_indoor_PM">Indoor PM2.5 (μg/m3)</string>
+    <string name="more_setting_24_curve_indoor_PM_average">00/00: 000μg/m3</string>
+    <string name="more_setting_24_curve_high">Today\'s high:</string>
+    <string name="more_setting_24_curve_low">Today\'s low:</string>
+    <string name="more_setting_month_high">Monthly high:</string>
+    <string name="more_setting_month_low">Monthly low:</string>
+
+    <string name="more_view_month">Month</string>
+    <string name="more_view_day">Date</string>
+
+    <!--"家电"页面-->
+    <string name="device_location">Location</string>
+
+    <!--语音页面-->
+    <string name="chat_press_speak">Press and speak</string>
+    <string name="chat_up_stop">Release to finish</string>
+    <string name="chat_send">\'Send\'</string>
+    <string name="chat_bar_title">Xiao Mei</string>
+    <string name="chat_bar_device">Set</string>
+    <string name="init_msg">Hi! I\'m Xiao Mei and I\'m here to help.</string>
+
+    <!--首页-->
+    <string name="power_home">Power management</string>
+    <string name="check_home">Smart inspection</string>
+    <string name="air_home">\'Air Expert\'</string>
+    <string name="advice_home">\'Health Index\'</string>
+
+    <string name="check_device">Inspect devices</string>
+    <string name="check_items">Inspect parameters</string>
+    <string name="fault_count">\'Fault Information\'</string>
+
+    <string name="tit_state">Midea SmartControl data monitoring report:</string>
+
+    <!--首页 空调 通用-->
+    <string name="home_air_setting">Universal</string>
+    <string name="home_air_setting_mildew_proof">Intense mold prevention</string>
+    <string name="home_air_setting_children">No blanket kicking</string>
+    <string name="home_air_setting_sleep_curve">Sleep curve</string>
+    <string name="home_air_setting_share_device">Share with device</string>
+    <string name="home_air_setting_temperature">Temperature unit</string>
+    <string name="home_air_setting_temperature_c">degrees Celsius</string>
+    <string name="home_air_setting_temperature_f">degrees Fahrenheit</string>
+    <string name="home_air_setting_local_information">System information</string>
+
+    <string name="home_air_setting_children_information_push">Child push notifications</string>
+    <string name="home_air_setting_children_tclmd">Detection sensitivity</string>
+    <string name="home_air_setting_children_tclmd_result">Medium</string>
+    <string name="home_air_setting_children_zlqj">Cooling range</string>
+    <string name="home_air_setting_children_zlqj_result">20-27℃</string>
+    <string name="home_air_setting_children_zlqj_tclmd">Detection sensitivity</string>
+    <string name="home_air_setting_children_zlqj_tclmd_result">3℃</string>
+
+    <string name="home_air_setting_local_information_class">Category</string>
+    <string name="home_air_setting_local_information_result_class">Air conditioners</string>
+    <string name="home_air_setting_local_information_product">Model Number</string>
+    <string name="home_air_setting_local_information_result_product">7874123</string>
+    <string name="home_air_setting_local_information_series">Series</string>
+    <string name="home_air_setting_local_information_result_series">Unknown</string>
+    <string name="home_air_setting_local_information_ps">Horsepower</string>
+    <string name="home_air_setting_local_information_nxdj">Energy efficiency level</string>
+    <string name="home_air_setting_local_information_yxfs">Operating mode</string>
+    <string name="home_air_setting_local_information_zll">Cooling capacity</string>
+    <string name="home_air_setting_local_information_zrl">Heating capacity</string>
+    <string name="home_air_setting_local_information_power_zl">Cooling power</string>
+    <string name="home_air_setting_local_information_result_power_zl">1080W</string>
+    <string name="home_air_setting_local_information_power_zr">Cooling power</string>
+    <string name="home_air_setting_local_information_result_power_zr">2160W</string>
+    <string name="home_air_setting_local_information_data">Date of manufacture</string>
+    <string name="home_air_setting_local_information_result_data">December 20, 2015</string>
+    <string name="home_air_setting_local_information_factory">Production plant</string>
+    <string name="home_air_setting_local_information_result_factory">Guangzhou plant</string>
+
+    <!--首页和家电页的弹窗-->
+    <string name="home_air_add_device">Add device</string>
+    <string name="home_air_add_member">Add member</string>
+    <string name="home_air_rich_scan">Scan</string>
+
+    <!--编辑房间页面-->
+    <string name="air_main_home">Home screen</string>
+    <string name="air_main_home_test">Smart inspection</string>
+    <string name="air_home_edit_room_new">New room</string>
+    <string name="air_home_edit_room_add">Add room</string>
+    <string name="air_home_edit_room_my_home">My house</string>
+    <string name="air_home_edit_room_living">Living room</string>
+    <string name="air_home_edit_room_main">Master bedroom</string>
+    <string name="air_home_edit_room_bedroom">Bedroom</string>
+    <string name="air_home_edit_room_study">Study</string>
+    <string name="air_home_edit_room_other">Other room</string>
+    <string name="air_home_edit_room_cancel">Cancel</string>
+    <string name="air_home_edit_room">Edit room</string>
+    <string name="air_home_edit_room_name">Name</string>
+    <string name="air_home_edit_scene_button">Preferences button</string>
+    <string name="air_home_edit_room_device_manage">Appliance management</string>
+    <string name="air_home_edit_room_delete_room">Delete room</string>
+    <string name="air_home_edit_room_close">All off</string>
+    <string name="air_home_edit_room_close_all">Turn off all devices</string>
+    <string name="air_home_edit_room_scene">Preferences</string>
+    <string name="air_home_edit_room_bar_right">Reset</string>
+    <string name="air_home_edit_room_dialog_title">Save settings</string>
+    <string name="air_home_edit_room_dialog_content">Save appliance settings for this room?</string>
+
+    <!--更多-个人资料页面-->
+    <string name="air_more_person">Personal details</string>
+    <string name="air_more_discover">Discover</string>
+    <string name="air_more_person_log_out">Abort sign in</string>
+    <string name="air_more_person_name">Name</string>
+    <string name="air_more_person_sex">Gender</string>
+    <string name="air_more_person_address">Address</string>
+    <string name="air_more_person_log_out_confirm">Abort logging in?</string>
+    <string name="air_more_person_change_photo">Edit picture</string>
+    <string name="air_more_person_shoot">Take photo with phone</string>
+    <string name="air_more_person_local">Local image</string>
+    <string name="air_more_person_code">Personal QR code</string>
+    <string name="air_more_person_male">Male</string>
+    <string name="air_more_person_female">Female</string>
+    <string name="air_more_person_new_add">New address</string>
+    <string name="air_more_person_add_name">Recipient</string>
+    <string name="air_more_person_add_contact">Contact details</string>
+    <string name="air_more_person_add_province">Province/town</string>
+    <string name="air_more_person_add_detail">Detailed address</string>
+    <string name="air_more_person_add_postcode">ZIP code</string>
+    <string name="air_more_person_add_name_hint">Name</string>
+    <string name="air_more_person_add_contact_hint">Phone number</string>
+    <string name="air_more_person_add_province_hint">Local information</string>
+    <string name="air_more_person_add_detail_hint">House number</string>
+    <string name="air_more_person_add_change">Edit address</string>
+    <string name="air_more_person_dialog_title">Cancel changes made?</string>
+    <string name="air_more_person_change_title">Save changes?</string>
+
+
+    <!--更多-我的家庭页面-->
+    <string name="air_more_family_my_family">My family</string>
+    <string name="air_more_family_add_member">Add member</string>
+    <string name="air_more_family_select">Select family</string>
+    <string name="air_more_family_my_member">My family members</string>
+    <string name="air_more_family_join">Families joined</string>
+    <string name="air_more_family_change">Switch family</string>
+    <string name="air_more_family_change_msg">Switch to </string>
+    <string name="air_more_family_change_msg_end">\?</string>
+    <string name="air_more_family_member_invite">Invite:</string>
+    <string name="air_more_family_add_family_member">Add family member</string>
+    <string name="air_more_family_add">Add</string>
+    <string name="air_more_family_add_msg">Add user?</string>
+    <string name="air_more_family_exit_family">Leave family</string>
+    <string name="air_more_family_exit_member">Delete member</string>
+    <string name="air_more_family_exit_msg">Leave family?</string>
+    <string name="air_more_family_exit">Leave</string>
+    <string name="air_more_family_delete">Delete</string>
+    <string name="air_more_family_search">Searching for users...</string>
+    <string name="air_more_family_send">Sending invite...</string>
+    <string name="air_more_family_invite_tip">This user is already in your family</string>
+    <string name="air_more_family_tip">Only the person who created this family can delete members</string>
+    <!--城市列表-->
+    <string name="air_home_search_city">Enter the city name or pinyin to search</string>
+    <string name="air_home_choose_city">Select city</string>
+    <string name="air_home_weather">Weather</string>
+    <string name="air_home_hot_city">Popular cities</string>
+
+    <!--添加家电-->
+    <string name="air_add_device_tip1">Press and hold the \'Display\' button on the remote control for 3 seconds within 10 minutes of powering-on. When a single long or double \'beep\' sound is heard and the Wi-Fi indicator light is flashing slowly, the device has entered quick-connect/network configuration mode.</string>
+    <string name="air_add_device_tip2">Press and hold the \'ON/OFF\' and \'Purification\' buttons on the device for 3 seconds or longer within 10 minutes of powering-on. When a single long \'beep\' sound is heard and the Wi-Fi indicator light is flashing slowly, the device has entered network configuration mode.</string>
+    <string name="air_add_device_tip3">Aim the IR remote at the AC and press the \'Display\' button 6 times within 10 minutes of powering-on. When \'AP\' is shown on the AC\'s display panel, the AC has entered configuration mode.</string>
+    <string name="air_add_device_tip4">Press and hold the \'ON/OFF\' button on the device for 3 seconds or longer within 10 minutes of powering-on. When a single long \'beep\' sound is heard and the Wi-Fi indicator light is flashing quickly, the device has entered network configuration mode.</string>
+    <string name="air_add_device_tip5">Check if the Wi-Fi indicator light is flashing slowly within 10 minutes of powering-on to see if the device is in network configuration mode. If the light is always on, press and hold the \'Reset\' button for 3 seconds and the light will change to flash slowly. This indicates that the device has entered configuration mode.</string>
+    <string name="air_add_device_tip6">Check if the Wi-Fi indicator light is flashing slowly within 10 minutes of powering-on to see if the device is in network configuration mode. If the light is always on, press and hold the \'Reset\' button for 3 seconds and the light will change to flash slowly. This indicates that the device has entered configuration mode.</string>
+    <string name="air_add_device_tip7">Press and hold the \'Reset\' button for 3 seconds within 10 minutes of powering-on. The indicator light will change to flash quickly, which indicates that the device has entered configuration mode.</string>
+    <string name="air_add_device_tip8">Press the \'Reset\' button twice within 10 minutes of powering-on. The indicator light will change to flash quickly, which indicates that the device has entered configuration mode.</string>
+    <string name="air_add_device_tip9">Pressing the reset button for 2 seconds continuously until the Wi-Fi light turns to quickly flashing, it means that the device has already entered into AP configuration mode.</string>
+    <string name="air_add_device_tip_fan">With the device turned on, simultaneously press the \'Swing\' and \'Mode\' buttons for 5 seconds. When the Wi-Fi indicator light flashes quickly, the fan has entered configuration mode</string>
+    <string name="air_add_device_tip_airp_m">Press and hold the \'ON/OFF\' and \'Fan Speed\' buttons within 10 minutes of powering-on until a sound is heard from the buzzer. When the Wi-Fi indicator light flashes slowly, the device has entered quick-connect/network configuration mode</string>
+    <string name="air_add_device_tip_airp_a">Press and hold the \'ON/OFF\' button for 3 seconds within 10 minutes of powering-on. When a long \'beep\' sound is heard, the purifier has entered configuration mode</string>
+    <string name="air_add_device_tip_humi_a">Press and hold the \'ON/OFF\' button for 3 seconds within 10 minutes of powering-on. When \'AP\' is shown on the display panel, the humidifier has entered configuration mode</string>
+    <string name="air_add_device_tip_dehu_a">Press and hold the \'ON/OFF\' button for 3 seconds within 10 minutes of powering-on. When \'AP\' is shown on the display panel, the dehumidifier has entered configuration mode</string>
+    <string name="air_add_device_tip_airb_a">Press and hold the \'Reset\' button for 3 seconds within 10 minutes of powering-on. When the Wi-Fi indicator light flashes slowly, the air box has entered configuration mode</string>
+    <string name="air_add_device_tip_scol_a">Press and hold the \'Reset\' button for 3 seconds within 10 minutes of powering-on. When the Wi-Fi indicator light flashes slowly, the smart socket has entered configuration mode</string>
+    <string name="air_add_device_tip_pur">Press and hold the \'ON/OFF\' and \'Fan Speed\' buttons for 3 seconds within 10 minutes of powering-on until a sound is heard from the buzzer. (If there isn\'t a \'Fan Speed\' button, press and hold the \'ON/OFF\' and \'Auto\' buttons for 3 seconds instead.) When the Wi-Fi indicator light flashes slowly, the device has entered quick-connect/network configuration mode. Note: Turn the device off and on again if 10 minutes has lapsed since powering-on</string>
+
+    <string name="air_add_device_wifi">Wi-Fi</string>
+    <string name="air_add_device_wifi_password">Password</string>
+    <string name="air_add_device_connect_wifi">Connect to wireless network</string>
+    <string name="air_add_device_net_tip">Appliance is in network configuration mode</string>
+    <string name="air_add_device_one_msc">Scanning for new appliances</string>
+    <string name="air_add_device_connect_device">Connecting to new appliances</string>
+    <string name="air_add_device_connect_cancel">Cancel connection</string>
+    <string name="air_add_device_connecting">Connecting</string>
+    <string name="air_add_device_connect_failure">Failed to connect</string>
+    <string name="air_add_device_connect_try_again">Retry</string>
+    <string name="air_add_device_name">Appliance name</string>
+    <string name="air_add_device_select_room">Select room</string>
+    <string name="air_add_device_set">Appliance settings</string>
+
+    <!--主页定制-->
+    <string name="air_home_page_setting">Home screen customization</string>
+    <string name="air_home_page_setting_room">Rooms</string>
+    <string name="air_home_page_setting_excluding">Exclude</string>
+
+    <!--单品-->
+    <string name="air_device_ac">Air conditioner</string>
+    <string name="air_device_pur">Purifier</string>
+    <string name="air_device_fan">Fans</string>
+    <string name="air_device_hum">Humidifier</string>
+    <string name="air_device_dehum">Dehumidifier</string>
+    <string name="air_device_dehum_dm">Cube</string>
+    <string name="air_device_fun">Fans</string>
+    <string name="air_device_abox">Air+ Ball</string>
+    <string name="air_device_soc">Smart sockets</string>
+    <string name="air_device_more">Other features</string>
+
+    <!--空调 View-->
+    <string name="ac_turbo">Strong</string>
+
+    <string name="ac_prepare">Pre-cooling/Pre-heating</string>
+    <string name="ac_comfordry">Smart dry</string>
+    <string name="ac_diydry">Custom dry</string>
+    <string name="ac_natural_wind">Discreet</string>
+    <string name="ac_pmv">PMV</string>
+    <string name="ac_nature_wind">Natural</string>
+    <string name="ac_non_speed">Variable speed</string>
+    <string name="ac_speed">Non-variable speed</string>
+    <string name="ac_slient_wind">Silent</string>
+    <string name="ac_power">On/Off</string>
+    <string name="ac_mode">Mode</string>
+    <string name="ac_wind">Fan speed</string>
+    <string name="ac_u_wind">Up swing</string>
+    <string name="ac_d_wind">Down swing</string>
+    <string name="ac_lf_wind">Horizontal</string>
+    <string name="ac_ud_wind">Vertical</string>
+    <string name="ac_timer">Timer</string>
+    <string name="ac_humi">Humidity control</string>
+    <string name="dialog_timer_title">Select time</string>
+    <string name="dialog_pmv_title">PMV adjustment</string>
+    <string name="ac_purify">Purification</string>
+    <string name="ac_eco">ECO</string>
+    <string name="ac_drying">Dry</string>
+    <string name="ac_heat">Electric heating</string>
+    <string name="ac_sleep">Sleep</string>
+    <string name="ac_power_saving">Energy saving</string>
+    <string name="ac_auto_clean">Auto-clean</string>
+    <string name="ac_angel">Little angel</string>
+
+    <!--净化器 View-->
+    <string name="purifier_power">On/Off</string>
+    <string name="purifier_mode">Mode</string>
+    <string name="purifier_wind">Fan speed</string>
+    <string name="purifier_time_off">Timer</string>
+    <string name="purifier_anion">Negative ions</string>
+    <string name="purifier_ion">Plasma cluster ions</string>
+    <string name="purifier_light">Atmosphere indicator</string>
+    <string name="purifier_west">Increase humidity</string>
+    <string name="purifier_lock">Child lock</string>
+    <string name="purifier_sound">Voice</string>
+    <string name="purifier_volume">Volume</string>
+    <string name="purifier_pm">PM2.5 unit</string>
+    <string name="purifier_pm_unit">ug/m�</string>
+    <string name="purifier_sound_play">Announcement sound</string>
+
+    <!--加湿器 View-->
+    <string name="humidifier_power">On/Off</string>
+    <string name="humidifier_hum">Increase humidity</string>
+    <string name="humidifier_wind">Fan speed</string>
+    <string name="humidifier_show">Atmosphere indicator</string>
+
+    <!--风扇 View-->
+    <string name="air_fan_power">On/Off</string>
+    <string name="air_fan_wind">Wind type</string>
+    <string name="air_fan_swing">Swing</string>
+    <string name="air_fan_l_r">Horizontal</string>
+    <string name="air_fan_u_d">Vertical</string>
+    <string name="air_fan_swing_W">W-shaped</string>
+    <string name="air_fan_anion">Negative ions</string>
+    <string name="air_fan_timer">Timer</string>
+    <string name="air_fan_voice">Voice</string>
+    <string name="air_fan_lock">Lock</string>
+
+    <string name="wind_speed_auto">Auto</string>
+    <string name="wind_speed_silent">Silent</string>
+    <string name="wind_speed_low">Low</string>
+    <string name="wind_speed_mid">Medium</string>
+    <string name="wind_speed_high">High</string>
+    <string name="wind_speed_set">Fan speed adjustment</string>
+
+    <string name="air_dehumi_diy">Custom dry</string>
+    <string name="air_dehumi_comfor">Smart dry</string>
+    <string name="air_dehumi_fun">Function switch</string>
+    <string name="air_dehumi">Humidity</string>
+    <string name="air_fan_auto">Auto</string>
+
+    <!--更多-主页-->
+    <string name="air_more_mall">Midea Mall</string>
+    <string name="air_more_after_sale">After-sales service</string>
+    <string name="air_more_fan">Midea Circle</string>
+
+    <!-- 二维码 -->
+    <string name="two_dimension_code">Scan QR code</string>
+    <string name="two_dimension_code_smk">Match the QR code with the scanning area</string>
+    <string name="two_dimension_code_nofind"><u>Can\'t find QR code? Try entering device barcode number</u></string>
+
+    <!--主页-->
+    <string name="home_check_device_unit">Device(s)</string>
+    <string name="home_check_item_unit">Item(s)</string>
+    <string name="home_check_fault_unit">\?</string>
+
+    <string name="temp_set_range">Most used AC settings over last 7 days</string>
+    <string name="get_title">Name obtained:</string>
+
+    <string name="home_health_cold_easy">Susceptible to colds</string>
+    <string name="home_health_cold_dif">Not susceptible to colds</string>
+    <string name="home_health_dress_shirt">T-shirt</string>
+    <string name="home_health_dress_knitwear">Knitwear</string>
+    <string name="home_health_dress_fleece">Hoodie</string>
+    <string name="home_health_dress_feather">Down jacket</string>
+    <string name="home_health_bed_blanket">Light blanket</string>
+    <string name="home_health_bed_wool">Woolen blanket</string>
+    <string name="home_health_bed_feather">Down blanket</string>
+    <string name="home_health_makeup_hum">Keep warm</string>
+    <string name="home_health_makeup_water">Rehydration</string>
+    <string name="home_health_sleep_early">Sleep early, wake early</string>
+    <string name="home_health_sleep_later">That lazy feeling</string>
+    <string name="home_health_plant_light">Light required</string>
+    <string name="home_health_plant_water">Must water plants</string>
+    <string name="home_health_pet_shower">Can shower</string>
+    <string name="home_health_pet_shower_not">Shouldn\'t shower</string>
+    <string name="home_health_window_open">Proper ventilation</string>
+    <string name="home_health_window_close">Close windows</string>
+    <string name="home_health_dry">Laundry day</string>
+    <string name="home_health_dry_dif">Non-drying day</string>
+    <string name="home_health_game_little">A few</string>
+    <string name="home_health_game">Suitable</string>
+    <string name="home_health_smoke">Unhealthy</string>
+
+    <!--四大智能硬件-->
+    <string name="air_device_router">Smart Connection Center</string>
+    <string name="air_device_band">Air Band</string>
+    <string name="air_device_box">Air+ Ball</string>
+    <string name="air_device_socket">Smart sockets</string>
+
+    <!--单位-->
+    <string name="unit_centigrade_degree">℃</string>
+    <string name="unit_degree">°</string>
+    <string name="unit_percent">%%</string>
+    <string name="unit_pm2_5">μg/m3</string>
+    <string name="unit_fan_wind">Records</string>
+
+    <!--空调运行模式-->
+    <string name="ac_mode_auto">Auto</string>
+    <string name="ac_mode_cool">Cool</string>
+    <string name="ac_mode_wet">Dry</string>
+    <string name="ac_mode_heat">Heat</string>
+    <string name="ac_mode_wind">Fan</string>
+
+    <string name="mode_title">Select mode</string>
+    <string name="humi_title">Select humidity level</string>
+    <string name="speed_title">Select fan speed</string>
+
+    <!--除湿机运行模式-->
+    <string name="dehum_mode_set">Set</string>
+    <string name="dehum_mode_cont">Continuous</string>
+    <string name="dehum_mode_auto">Auto</string>
+    <string name="dehum_mode_dry">Dry</string>
+
+    <!--净化器运行模式-->
+    <string name="pur_mode_auto">Auto</string>
+    <string name="pur_mode_manu">Manual</string>
+    <string name="pur_mode_sleep">Sleep</string>
+
+    <!--风扇风类-->
+    <string name="fan_mode_normal">Normal</string>
+    <string name="fan_mode_nature">Natural</string>
+    <string name="fan_mode_sleep">Sleep</string>
+    <string name="fan_mode_cosy">Comfortable</string>
+    <string name="fan_mode_mute">Silent</string>
+    <string name="fan_mode_baby">Baby</string>
+    <string name="fan_mode_feel">Sensory function</string>
+
+    <string name="air_outer">Outdoor</string>
+    <string name="air_inner">Indoor</string>
+    <string name="air_humi">Humidity</string>
+
+    <!--更多页面-->
+    <string name="air_report">Air report</string>
+    <string name="product_video">Product video</string>
+
+    <!--售后服务-->
+    <string name="service_set">Installation and repair</string>
+    <string name="service_progress_query">Service progress inquiry</string>
+    <string name="service_network">Service website</string>
+    <string name="service_phone">Service hotline</string>
+    <string name="service_phone_confirm">Call the hotline on:</string>
+
+    <!--定位开关-->
+    <string name="location_confirm">Confirm</string>
+    <string name="my_location">My location</string>
+    <string name="clear_dialog_title"> Clear on/off logs</string>
+    <string name="clear_dialog_msg"> Clear all on/off logs?</string>
+    <string name="set_position_title">Reminder</string>
+    <string name="set_position_msg">Home location must be set first</string>
+    <string name="set_position">Set</string>
+    <string name="location_switch_scene_start">%1$s\'s %2$s preferences have been set</string>
+    <string name="location_switch_close">All appliances have been turned off as you have gone out</string>
+    <string name="set_scene_msg">Preferences must be set first</string>
+
+    <!--插座-->
+    <string name="cool_down">Reduce temperature</string>
+    <string name="hot_up">Increase temperature</string>
+    <string name="up_down_wind">Vertical swing</string>
+    <string name="left_right_wind">Horizontal swing</string>
+    <string name="match_remote_text">Program remote control</string>
+    <string name="remote_center_text_1">Tap \'Add\' if it works or left/right if it doesn\'t</string>
+    <string name="remote_center_text_2">Tap the button below</string>
+    <string name="remote_center_text_3">Program 1/35</string>
+    <string name="add_wind">Increase fan speed</string>
+    <string name="reduce_wind">Decrease fan speed</string>
+    <string name="add_done">Added successfully</string>
+    <string name="power_tips">Cooling/medium fan	Actual power consumption 000.0W</string>
+    <string name="bottom_button_text_3">Increase</string>
+    <string name="bottom_button_text_4">Decrease</string>
+    <string name="book_time">Timer</string>
+    <string name="electricity">Power</string>
+    <string name="more">More</string>
+    <string name="text_electricity_title">December 2015 power consumption (kWh)</string>
+    <string name="text_title_select">Select AC manufacturer</string>
+    <string name="tool_title">Treasure box</string>
+    <string name="cancle">Cancel</string>
+    <string name="sure">Confirm</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="back">Back</string>
+    <string name="switch_open">Socket power is on</string>
+    <string name="now_power">Real-time power consumption</string>
+    <string name="app_bar_title">Smart sockets</string>
+    <string name="text_switch">On/Off</string>
+    <string name="text_mode">Mode</string>
+    <string name="firmware_update">Firmware upgrade</string>
+
+
+    <string name="router_name">Router</string>
+    <string name="airbox_name">AirBix</string>
+    <string name="bracelet_name">Bracelet</string>
+    <string name="back_name">Back</string>
+    <string name="router_name_ch">Smart Connection Center</string>
+    <string name="number_name">000.0</string>
+    <string name="upload_speed">Upload speed:</string>
+    <string name="noping_name">Current network speed</string>
+    <string name="kb_name">KB/s</string>
+    <string name="adjust_name">Channel adjustment</string>
+    <string name="sign_name">Signal adjustment</string>
+    <string name="switch_name">Timer On/Off</string>
+    <string name="share_name">Share network</string>
+    <string name="show_router_name"><B>Smart Connection Center</B></string>
+    <string name="reconnect"><B>Retry</B></string>
+    <string name="reconnect_remind"><B>Not connected to Smart Connection Center. Check the network settings.</B></string>
+    <string name="reconnecting"><B>Connecting to network...</B></string>
+    <string name="en_wifi_name">MideaWi-Fi</string>
+    <string name="slelect_router">Selecting channel...</string>
+    <string name="slelect_channel">Channel selected:</string>
+    <string name="save_name">Save</string>
+    <string name="sleep_name">Sleep soundly</string>
+    <string name="sub_title">A 10%% signal strength means no more radiation worries</string>
+    <string name="select_strength">Adjust strength:</string>
+    <string name="balance">Balanced</string>
+    <string name="noclip">Powerful</string>
+    <string name="share_mesh">Share network</string>
+    <string name="ssid">SSID:</string>
+    <string name="share_hint">Network isolation means safer browsing for kids</string>
+    <string name="link_state">Connection status</string>
+    <string name="mesh_operator">Network operator</string>
+    <string name="outer_net">Smart Connection Center External IP</string>
+    <string name="gateway">Gateway</string>
+    <string name="dnsService">DNS server</string>
+    <string name="hardware">System hardware</string>
+    <string name="hardwareMAC">Hardware MAC</string>
+    <string name="routerName">Smart Connection Center Name</string>
+    <string name="routerInfo">Smart Connection Center Information</string>
+    <string name="locations">Location</string>
+    <string name="internet_switch">Wi-Fi On/Off</string>
+    <string name="panel_switch">Device light On/Off</string>
+    <string name="internet_mode">Set network connection mode</string>
+    <string name="wifi_password">Set Wi-Fi name and password</string>
+    <string name="input_password">Enter administrator password</string>
+    <string name="imformation">Reminder</string>
+    <string name="exit">Restart Smart Connection Center</string>
+    <string name="main_ui"><b>Main Interface</b></string>
+    <string name="state">Offline</string>
+    <string name="kbs">125Kb/s</string>
+    <string name="living_room">Living room</string>
+    <string name="master_bedroom">Master bedroom</string>
+    <string name="bedroom">Bedroom</string>
+    <string name="study_room">Study</string>
+    <string name="other_room">Other room</string>
+    <string name="wireless_name">Wireless name</string>
+    <string name="routername">Smart Connection Center Name</string>
+    <string name="hide_network">Hide network</string>
+    <string name="wpa_wpa2">WPA/WPA2 secure encryption</string>
+    <string name="set_wifi_name_pass">Set Wi-Fi name and password</string>
+    <string name="please_wifi_name">Enter a wireless name</string>
+    <string name="please_wifi_password">Enter a password</string>
+    <string name="admin_password">Enter the administrator password</string>
+    <string name="phone_name">Device name</string>
+    <string name="capacity">Smart Traffic Shaping</string>
+    <string name="close">Off</string>
+    <string name="open">On</string>
+    <string name="workday">Weekdays</string>
+    <string name="repeat">Repeat</string>
+    <string name="first">Only once</string>
+    <string name="wifi_closetime">Smart Connection Center off time</string>
+    <string name="wifi_opentime">Smart Connection Center on time</string>
+    <string name="weekday">Sundays</string>
+    <string name="saturday">Saturdays</string>
+    <string name="friday">Fridays</string>
+    <string name="thursday">Thursdays</string>
+    <string name="wednesday">Wednesdays</string>
+    <string name="tuesday">Tuesdays</string>
+    <string name="monday">Mondays</string>
+    <string name="awayhome">Away mode</string>
+    <string name="userclose">AC will turn off 15 minutes after user leaves</string>
+    <string name="daytime">Daytime tracking</string>
+    <string name="accessInternet">Easy Internet access</string>
+    <string name="locationTelecom">Foshan Telecommunications</string>
+    <!--空气盒子-->
+    <string name="temperature">Temperature</string>
+    <string name="remote_control">Add remote control</string>
+    <string name="standby">Standby</string>
+    <string name="starting_up">Turn on</string>
+    <string name="set_temp">Set temperature to 23℃</string>
+    <string name="select_type">Select type</string>
+    <string name="select_mode">Select mode</string>
+    <string name="mode_auto">Auto</string>.
+    <string name="mode_cool">Cool</string>
+    <string name="mode_dry">Dry</string>
+    <string name="mode_heat">Heat</string>
+    <string name="mode_wind">Fan</string>
+    <string name="select_aircondition">Air conditioners</string>
+    <string name="select_fan">Fan</string>
+    <string name="cancel"><b>Cancel</b></string>
+    <string name="hint_1">Try using below steps to control appliances:</string>
+    <string name="hint_2">1. Press the \'ON/OFF\' or other buttons to see if the appliance responds.\n\n2.If there\'s a response, tap \'Adding Complete\' in the lower-right corner. If there\'s no response, swipe left for the next program.</string>
+    <string name="hint_2_modify">1. Press the \'ON/OFF\' or other buttons to see if the appliance responds.\n\n2.If there\'s a response, tap \'Confirm Edit\' in the lower-right corner. If there\'s no response, swipe left for the next program.</string>
+    <string name="hint_3">Program 0/0</string>
+    <string name="hint_4">The self-learning interface requires 5 seconds to run</string>
+    <string name="hint_5">You will return to the menu when learning is complete</string>
+    <string name="hint_6">Press any button to begin</string>
+    <string name="air_switch">On/Off</string>
+    <string name="add_warm">Increase Temp.</string>
+    <string name="subtract_warm">Reduce Temp</string>
+    <string name="jxpra_hint"><u>Can\'t find the correct category? Try the self-learning function</u></string>
+    <string name="finish">Added successfully</string>
+    <string name="wind_speed_up">Fan speed up</string>
+    <string name="wind_speed_down">Fan speed down</string>
+    <string name="wind_mode">Wind type</string>
+    <string name="wind_mode_or_mode">Mode</string>
+    <string name="wind_swing">Swing</string>
+    <string name="wind_timer">Timer</string>
+    <string name="wind_timer_up">Timer up</string>
+    <string name="wind_timer_down">Timer down</string>
+    <string name="refrigeration">Cooling operation</string>
+    <string name="strength_fan"></string>
+    <string name="sleep_switch">Sleep: Off / Timer: Off</string>
+    <string name="dis_mode_title">Switch Mode</string>
+    <string name="dis_mode_close">Lock</string>
+    <string name="dis_mode_beat">Manual</string>
+    <string name="dis_mode_auto">Auto</string>
+    <string name="smart">Smart</string>
+
+    <!--智能手环-->
+    <string name="today_stepnumber">Steps today</string>
+    <string name="Number">20</string>
+    <string name="setp">steps</string>
+    <string name="goal">Target:</string>
+    <string name="taday_sleep">Deep sleep today</string>
+    <string name="hour">Hrs</string>
+    <string name="yesterday_sleep">Deep sleep yesterday</string>
+    <string name="setp_number">Number of steps</string>
+    <string name="average_day">Daily average</string>
+    <string name="deep_sleep">Deep sleep</string>
+    <string name="allday_deepsleep">All day deep sleep</string>
+    <string name="allday_sleep">All day sleep</string>
+    <string name="light_sleep">All day light sleep</string>
+    <string name="sober_time">Time awake</string>
+    <string name="last_nightsleep">Time fell asleep last night</string>
+    <string name="wokeup_today">Time woke up today</string>
+    <string name="Restore_default">Reset</string>
+    <string name="layout_windspeed">Fan speed</string>
+    <string name="GPS">GPS:</string>
+    <string name="kilometre">km</string>
+    <string name="calorie">Calories:</string>
+    <string name="automatic">Auto</string>
+    <string name="hot">Heat</string>
+    <string name="refrigerations">Cool</string>
+    <string name="arefaction">Dehumidify</string>
+    <string name="airsupply">Fan</string>
+    <!--百宝箱-->
+    <string name="week">Mon, Tue, Wed, Thur, and Fri</string>
+    <string name="gender">Gender</string>
+    <string name="age">Age</string>
+    <string name="height">Height</string>
+    <string name="weight">Weight</string>
+    <string name="city">City</string>
+    <string name="name">Name</string>
+    <string name="not_allow">Prohibit</string>
+    <string name="allow">Allow</string>
+    <string name="startBluetooth">Place the band with its screen lit up near your phone</string>
+    <string name="notbinding"><u>Don\'t pair now</u></string>
+    <string name="no_test">Incomplete</string>
+
+    <string name="share_msg">Share with</string>
+    <string name="watch_video">View video</string>
+    <string name="kindly_reminder_title">Reminder</string>
+    <string name="kindly_reminder_msg">You are not using a Wi-Fi connection. Viewing this will use your phone\'s data connection.</string>
+    <string name="continue_watch">Continue</string>
+
+    <string name="msg_center">Notifications Center</string>
+    <string name="new_family">New family</string>
+    <string name="new_family_list">Recently-added families</string>
+    <string name="new_family_accept">Accept</string>
+    <string name="new_family_added">Added</string>
+    <string name="activity_list">Events list</string>
+    <string name="read_full_msg">Read all</string>
+    <string name="more_msg">Notifications</string>
+
+    <!--手环 睡眠模式-->
+    <string name="bracelet_sleep_mode_hot">Prefer warm</string>
+    <string name="bracelet_sleep_mode_cold">Prefer cool</string>
+    <string name="bracelet_sleep_mode_suit">Moderate</string>
+    <string name="bracelet_sleep_mode_bed_n">No</string>
+    <string name="bracelet_sleep_mode_bed_y">Yes</string>
+
+    <string name="air_more_msg_empty">No notifications</string>
+    <string name="air_more_msg_clear_failure">Clearing failed</string>
+
+    <!-- 手环一键开关 -->
+    <string name="one_key_wind_speed_0">Stop fan</string>
+    <string name="one_key_wind_speed_1">High</string>
+    <string name="one_key_wind_speed_2">Medium</string>
+    <string name="one_key_wind_speed_3">Low</string>
+    <string name="one_key_wind_speed_5">Auto</string>
+    <string name="one_key_wind_speed_6">Silent</string>
+    <string name="one_key_mode_auto">Auto</string>
+    <string name="one_key_mode_hot">Heat</string>
+    <string name="one_key_mode_cold">Cool</string>
+    <string name="one_key_mode_deh">Dehumidify</string>
+    <string name="one_key_mode_blowing_in">Fan</string>
+
+    <!--更多 家电管理页面-->
+    <string name="delete_device">Delete appliance</string>
+    <string name="undistributed">Unassigned</string>
+    <string name="delete_dialog_title">Are you sure you want to delete?</string>
+    <string name="delete_dialog_msg">Tap to confirm</string>
+
+    <string name="app_name_main">M-Smart</string>
+    <string name="click_back_to_finish_app">Press again to exit app</string>
+    <string name="loading">Processing...</string>
+    <string name="quit_failed">Failed to exit</string>
+    <string name="scan_text">View the QR code in the box to scan automatically</string>
+    <string name="title_back">Back</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="air_manager">SmartControl</string>
+    <string name="nutrition_manager">NutritionControl</string>
+    <string name="water_manager">WaterControl</string>
+    <string name="security_manager">SafetyControl</string>
+    <string name="send_success">Sent</string>
+    <string name="time_out_message">Network busy, please try again</string>
+    <string name="opfailed_message">Operation failed, please try again</string>
+    <string name="net_error">Network connection failed</string>
+    <string name="net_timeout">Network connection timed out</string>
+    <string name="net_return_exception">Network connection error</string>
+    <string name="push_doing">Sending, please wait</string>
+    <string name="agree">Agree</string>
+    <string name="refuse">Refuse</string>
+    <string name="no_scan_result">No results found</string>
+    <!--TA 的相关功能 -->
+    <string name="more_function_ctrl_temp">Healthy cooling</string>
+    <string name="more_function_sleep_status">Sleep curve</string>
+    <string name="more_function_sleep_status_learn">Self-learn</string>
+    <string name="more_function_device_info">System information</string>
+    <string name="more_function_sleep_habit_status_switch">User statistics</string>
+    <string name="more_function_kid_kick">No blanket kicking</string>
+    <string name="more_function_kid_kick_notice">No blanket kicking warning</string>
+    <string name="more_function_voice_update">Voice upgrade</string>
+    <string name="more_function_voice_update_version">Voice module software version</string>
+    <string name="more_function_voice_update_current">Current: V%1$s</string>
+    <string name="more_function_voice_update_newest">Latest: V%1$s</string>
+    <string name="more_function_voice_update_tip">Version update instructions:</string>
+    <string name="more_function_voice_update_version_code">Version number: V%1$s</string>
+    <string name="more_function_voice_update_tip1">Upgrade instructions: %1$s</string>
+    <string name="more_function_voice_update_btn">Upgrade</string>
+    <string name="more_function_voice_update_tip2">Important notice:</string>
+    <string name="more_function_voice_update_tip3">Reminder:</string>
+    <string name="more_function_voice_tip_updating">Please wait patiently and do not operate the AC or turn it off while it is upgrading</string>
+    <string name="more_function_voice_tip_complete">Upgrade %1$s, turn the AC off and on again</string>
+    <string name="more_function_voice_update_btn_newest">This is the latest version</string>
+    <string name="more_function_voice_update_success">Upgrade successful</string>
+    <!--TA 的相关功能 -->
+    <string name="more_function">Other features</string>
+    <string name="more_function_security">Security Monitoring</string>
+    <string name="more_function_control">Smart Control</string>
+    <string name="more_function_gesture">Gesture Recognition</string>
+    <string name="more_function_invade_protect">Invasion Protection</string>
+    <string name="more_function_invade_msg_push">Invasion Push Notifications</string>
+    <string name="more_function_security_realtime">Real-Time Monitoring</string>
+    <string name="more_function_follow_wind">Targeted Airflow</string>
+    <string name="more_function_elude_wind">Sidestep Airflow</string>
+    <string name="more_function_energy_conservation">Empty Room Energy Saving</string>
+    <string name="more_function_gesture_1">Air Direction Gesture Control</string>
+    <string name="more_function_gesture_2">On/Off Gesture Control</string>
+    <string name="more_function_gesture_3">Recognizes gestures to turn the device on or off</string>
+    <string name="more_function_gesture_4">Recognizes whether the device is on or off</string>
+    <string name="more_function_gesture_5">Recognizes to direct airflow</string>
+    <string name="more_function_smart_1">Empty Room Energy Saving is only available in cool or heat modes</string>
+    <string name="more_function_smart_2">When Smart Control, Security Monitoring, and On/Off Gesture Control are all enabled simultaneously, turning on the device using Gesture Control will be unavailable (turning it off will still work).\nWhen Smart Control is disabled but Security Monitoring and Gesture Control are enabled, turning the device on or off will be temporarily unavailable.</string>
+    <!--其他功能页面-->
+    <string name="additional_fun_voice">Voice</string>
+    <string name="additional_fun_intelligent_key">Smart button</string>
+    <string name="cold_hot_preference">Temperature preference</string>
+    <string name="additional_fun_temperature">Temperature unit</string>
+    <string name="additional_fun_push_msg">Push notifications</string>
+    <string name="additional_fun_about_phone">About this device</string>
+    <string name="additional_voice_update">Voice module upgrade</string>
+    <string name="additional_voice_distinguish">Voice recognition</string>
+
+    <string name="more_function_sleep">Suggested curve</string>
+    <string name="more_function_sleep_custom">Custom curve</string>
+    <string name="more_function_sleep_remind">The AC works according to the selected curve while in sleep mode</string>
+
+    <!-- 自学习 -->
+    <string name="more_function_learn">More functions</string>
+    <string name="more_function_learn_title">Self-Learn</string>
+    <string name="more_function_learn_title_user">User Self-Learn</string>
+    <string name="more_function_learn_title_list">Operation logs</string>
+    <string name="more_function_learn_curve_off">When the \'Self-Learn\' function is enabled, the server will log all interaction between users and appliances to increase learning proficiency.</string>
+    <string name="more_function_learn_curve_on">When the \'Self-Learn\' function is enabled, the server will analyze habitual interaction between users and appliances as well as automatically control the AC during setup.</string>
+    <string name="more_function_learn_setup_time">Set time</string>
+    <string name="more_function_learn_setup_starttime">0:00</string>
+    <string name="more_function_learn_setup_endtime">23:00</string>
+    <string name="more_function_learn_curve_title">Self-learned curve</string>
+    <string name="more_function_learn_curve_temperature">Temperature (℃)</string>
+    <string name="more_function_learn_curve_temperature_today">%1$s average %2$s℃</string>
+    <string name="more_function_learn_curve_temperature_today_max">Today\'s high: %1$s℃</string>
+    <string name="more_function_learn_curve_temperature_today_min">Today\'s low: %1$s℃</string>
+
+    <string name="more_function_learn_curve_speed">Wind speed (%%)</string>
+    <string name="more_function_learn_curve_speed_today">%1$s average %2$s</string>
+    <string name="more_function_learn_curve_speed_today_max">Today\'s high: %1$s</string>
+    <string name="more_function_learn_curve_speed_today_max_auto">Auto</string>
+    <string name="more_function_learn_curve_speed_today_min">Today\'s low: %1$s</string>
+
+    <string name="more_function_learn_time_error_tips">End time cannot be earlier than start time</string>
+    <string name="more_function_learn_today">Today</string>
+    <string name="more_function_learn_preday">Yesterday</string>
+    <string name="more_function_learn_lastday">Two days ago</string>
+    <string name="more_function_learn_time_no_null">Time cannot be empty</string>
+
+    <string name="more_function_learn_last10_title">10-day curve (%1$s-%2$s)</string>
+
+    <string name="more_function_learn_use">Applied curve</string>
+
+    <!--添加家电-->
+    <string name="add_device_scan">Scan to Add</string>
+    <string name="add_device_remind1">Please select one of the discovered devices below to be added</string>
+    <string name="add_device_remind2">Can\'t find your device? Try using \'Scan to Add\'.</string>
+    <string name="add_device_remind3">No applicable appliances have been discovered on this wireless network</string>
+    <string name="add_device_remind4">Tap \'Scan to Add\'</string>
+    <string name="add_device_one_type_remind1">Attention:</string>
+    <string name="add_device_one_type_remind2">If the Wi-Fi indicator light becomes constantly lit, please tap:</string>
+    <string name="add_device_one_type_remind3">If it does not change for a long time, please try</string>
+    <string name="add_device_change_ap_mode">AP module</string>
+    <string name="add_device_scanning">Scanning networks...</string>
+    <string name="add_device_setting_internet">Configuring network...</string>
+    <string name="add_device_msc_remind">Can\'t find your device? Try swiping down to refresh and search again\nor tap the \'Reconfigure Network\' button</string>
+    <string name="add_device_reconfig">Reconfigure network</string>
+    <string name="add_device_wifi_remind_title">Search for and connect to AC hotspot</string>
+    <string name="add_device_wifi_remind_msg">Go to settings to connect to the following network, then return to this interface</string>
+    <string name="add_device_wifi_name">Name: %1$s</string>
+    <string name="add_device_wifi_password">Password: %1$s</string>
+    <string name="add_device_wifi_connected">Done already</string>
+    <string name="add_device_wifi_set">Set</string>
+    <string name="ap_not_device_tip1">Could not find any appliances to be configured for the network</string>
+    <string name="ap_not_device_tip2">Pull down to refresh</string>
+    <string name="msc_not_device_tip1">Could not find any appliances configured for the network</string>
+    <string name="msc_not_device_tip2">Pull down to refresh</string>
+    <string name="shutdown">Turn off</string>
+    <string name="mercury_is_empty">Refrigerator is empty</string>
+    <string name="mercury_is_full">Refrigerator is full</string>
+    <string name="not_support_change_temperature">Temperature adjustment not available in this mode</string>
+    <string name="real_time_monitor">Real-Time Monitoring</string>
+    <string name="network_error">No network connection</string>
+    <string name="appear_error">Error</string>
+
+    <!--单品提示语-->
+    <string name="not_support_change_humi">Humidity adjustment is not available in this mode</string>
+    <string name="not_support_change_wind">Fan speed adjustment is not available in this mode</string>
+    <string name="not_support_luffing">Swing is not available in this mode</string>
+    <string name="over_min_range">Minimum reached</string>
+    <string name="over_max_range">Maximum reached</string>
+
+    <!--智能联动-->
+    <string name="clear_dialog_brain_title"> Clear connection logs</string>
+    <string name="clear_dialog_brain_msg"> Clear all connection logs?</string>
+
+    <string name="electric_remind">AC with power management function not discovered</string>
+    <string name="temperature1">Prefer cool</string>
+    <string name="temperature2">Moderate</string>
+    <string name="temperature3">Prefer warm</string>
+    <string name="temperature11">The temperature will be lower after the AC has been operating for a while, which is more comfortable for users who like cooler environments.</string>
+    <string name="temperature22">The temperature will be moderate after the AC has been operating for a while, which is more comfortable for the majority of users.</string>
+    <string name="temperature33">The temperature will be higher after the AC has been operating for a while, which is more comfortable for users who like warmer environments.</string>
+
+    <string name="air_device_power_off">Already off</string>
+    <string name="air_device_open">Start</string>
+    <string name="air_device_close">Close</string>
+    <string name="air_socket_time">Network connection timed out</string>
+
+    <string name="air_socket_update_title">Main control module software version</string>
+    <string name="device_online">Online</string>
+    <string name="device_offline">Offline</string>
+    <string name="child_notwithin">Your child has left this area</string>
+    <string name="child_antilost_remind">Kids whereabouts reminder</string>
+    <string name="find_phone_function">You have used your band to activate the lost phone function</string>
+    <string name="find_phone">Find phone</string>
+    <string name="succeed">Success</string>
+    <string name="fail">Failed</string>
+    <string name="sleep_log">Sleep logs</string>
+    <string name="afternoon">PM</string>
+    <string name="forenoon">AM</string>
+    <string name="what_day">Day:</string>
+    <string name="everyday">Daily</string>
+    <string name="never">Never</string>
+    <string name="main_channel">Main channel</string>
+    <string name="main_channel_transmitter">Main channel (transmission)</string>
+    <string name="main_channel_receiver">Main channel (receiving)</string>
+    <string name="secondary_channel">Aux. channel</string>
+    <string name="secondary_channel_transmitter">Aux. channel (transmission)</string>
+    <string name="secondary_channel_receiver">Aux. channel (receiving)</string>
+    <string name="upgrade_channel">Upgrade channel</string>
+    <string name="upgrade_channel_transmitter">Upgrade channel (transmission)</string>
+    <string name="upgrade_channel_receiver">Upgrade channel (receiving channel)</string>
+    <string name="child">Child</string>
+    <string name="male">Male</string>
+    <string name="data_downloading">Downloading data, please wait</string>
+    <string name="unit_kilometre">%1$s km</string>
+    <string name="unit_kilocalorie">%1$s calories</string>
+    <string name="today_activity_record">Today\'s activity log</string>
+    <string name="unit_step">%1$s steps</string>
+    <string name="time_am">AM</string>
+    <string name="time_pm">PM</string>
+    <string name="add_alarm_clock">Add alarm</string>
+    <string name="edit_alarm_clock">Edit alarm</string>
+    <string name="tip_alarm_clock_max">Maximum 8 alarm clocks!</string>
+    <string name="week_sunday">Sunday</string>
+    <string name="week_monday">Monday</string>
+    <string name="week_tuesday">Tuesday</string>
+    <string name="week_wednesday">Wednesday</string>
+    <string name="week_thursday">Thursday</string>
+    <string name="week_friday">Friday</string>
+    <string name="week_saturday">Saturday</string>
+    <string name="smart_alarm_clock">Smart alarm</string>
+    <string name="day_sunday">Sunday</string>
+    <string name="day_monday">Monday</string>
+    <string name="day_tuesday">Tuesday</string>
+    <string name="day_wednesday">Wednesday</string>
+    <string name="day_thursday">Thursday</string>
+    <string name="day_friday">Friday</string>
+    <string name="day_saturday">Saturday</string>
+    <string name="all_records">All recorded data</string>
+    <string name="step">steps</string>
+    <string name="deep_sleep_hour">Deep sleep (hours)</string>
+    <string name="tip_sdk_min_version">Please use this function on version 4.3 and above</string>
+    <string name="connect_success">Connected</string>
+    <string name="connect">Connect</string>
+    <string name="success">Success</string>
+    <string name="find_no_bracelet">Midea Air+ Band not found</string>
+    <string name="choose_airconditioner">Select AC</string>
+    <string name="tip_unavailable_ac">Your account has not been paired with an AC, or your paired AC is offline.</string>
+    <string name="bind">Pair</string>
+    <string name="confirm_bind">Confirm pairing</string>
+    <string name="bind_bracelet_msg">Please touch the touchpad on the right side of the screen to confirm!</string>
+    <string name="bind_bracelet_ok">OK</string>
+    <string name="bind_bracelet_error">Not received</string>
+    <string name="tip_binding">Pairing (may take up to 1 minute, please wait)</string>
+    <string name="bluetooth_close">Bluetooth is off</string>
+    <string name="not_find">Not found</string>
+    <string name="not_search">Could not find a Midea to connect to</string>
+    <string name="try_again">Retry</string>
+    <string name="bind_bracelet_success">Pairing successful...</string>
+    <string name="sendible_temperature">Body Temp:</string>
+    <string name="air_temperature">Air Temp:</string>
+    <string name="bracelet_power">Power:</string>
+    <string name="init_failure">Initialization failed...</string>
+    <string name="pls_connect_bracelet_first">Connect the band first</string>
+    <string name="data_in_sync">Synchronizing data...</string>
+    <string name="bracelet_connecting">Connecting...</string>
+    <string name="bluetooth_connection_exception">Bluetooth connection error...</string>
+    <string name="deep_sleep_value">Deep sleep:</string>
+    <string name="light_sleep_value">Light sleep:</string>
+    <string name="bracelet_time">Band time</string>
+    <string name="child_mode">Kids Mode</string>
+    <string name="child_room_too_cold">The temperature in your kid\'s bedroom is too low. Raising the temperature of their AC is recommended.</string>
+    <string name="child_room_too_hot">The temperature in your kid\'s bedroom is too high. Lowering the temperature of their AC is recommended.</string>
+    <string name="pls_bracelet_connect_ac">Please allow the band to connect to the AC</string>
+    <string name="bracelet_onekey_switch">One-touch off via band</string>
+    <string name="restore_default_confirm">Reset to default values?</string>
+    <string name="tip_onekey_ac_close">One-touch AC off is disabled. Please enable it first.</string>
+    <string name="child_information">Kids\' Information</string>
+    <string name="years_old">Years</string>
+    <string name="personal_information">Wearer\'s Information</string>
+    <string name="save_success">Saved!</string>
+    <string name="bracelet_user">Band user</string>
+    <string name="comfort_mode">Sleep mode</string>
+    <string name="cold_hot_feel">Cool/heat feeling</string>
+    <string name="tuyere_set">Outlet settings</string>
+    <string name="time_start">Start time</string>
+    <string name="time_end">End time</string>
+    <string name="today_sleep_record">Today\'s sleep log</string>
+    <string name="treasure_box">Treasure box</string>
+    <string name="unbind_bracelet_tip">Band information cannot be obtained after unpairing</string>
+    <string name="unbind_bracelet">Unpair band</string>
+    <string name="unbinding">Unpairing, please wait</string>
+    <string name="unbind_success">Unpaired!</string>
+    <string name="unbind_failure">Unpairing failed!</string>
+    <string name="today_exercise_data">Today\'s exercise data</string>
+    <string name="all_day_mileage">Total distance</string>
+    <string name="walk_mileage">Walking distance</string>
+    <string name="run_mileage">Running distance</string>
+    <string name="all_day_steps">Steps today</string>
+    <string name="all_calorie">Total daily consumption</string>
+    <string name="walk_calorie">Walking consumption</string>
+    <string name="run_calorie">Running consumption</string>
+    <string name="no_forever">Never</string>
+    <string name="delete_alarm_clock">Delete alarm</string>
+    <string name="find_match_ac">Please select one of the following ACs to be paired</string>
+    <string name="start_bind">Start pairing</string>
+    <string name="bluetooth_connect_failure">Bluetooth connection error</string>
+    <string name="comfort_mode_state">Automatically adjusts the AC\'s comfort mode in line with the temperature and your sleeping state</string>
+    <string name="child_mode_state">Automatically sends an alert to your phone when your child\'s room is too hot or too cold</string>
+    <string name="onekey_switch">One-touch on/off parameter settings</string>
+    <string name="onekey_switch_state">Set your band to turn on and adjust the temperature, mode, and fan speed of your AC with one touch</string>
+    <string name="bind_ac">Pair AC</string>
+    <string name="child_room_too_cold_remind">Set cold alert for kid\'s room</string>
+    <string name="child_room_too_hot_remind">Set heat alert for kid\'s room</string>
+    <string name="cost_time">Usage time</string>
+    <string name="pace">Pace (min./km)</string>
+    <string name="step_frequency">Strides per Minute (stride/min.)</string>
+    <string name="share">Share</string>
+    <string name="calories">Calories (Kcal)</string>
+    <string name="kilocalorie">Kcal</string>
+    <string name="low">Weak</string>
+    <string name="onekey_switch_ac">One-touch AC on/off</string>
+    <string name="ac_set_temp">Set AC temperature</string>
+    <string name="ac_set_mode">Set AC mode</string>
+    <string name="ac_set_wind_speed">Set AC fan speed</string>
+    <string name="years_old_25">25 y/o</string>
+    <string name="height_180cm">180cm</string>
+    <string name="weight_80kg">80kg</string>
+    <string name="years_old_35">35 y/o</string>
+    <string name="height_170cm">170cm</string>
+    <string name="weight_60kg">60kg</string>
+    <string name="start">Start</string>
+    <string name="run">Running</string>
+    <string name="start_sleep_mode">Enable sleep mode</string>
+    <string name="cold_hot_set">Cool/heat feeling settings</string>
+    <string name="bed_to_ac_tuyere">Bed is directly facing AC\'s air outlet</string>
+    <string name="make_corresponding_adjust">Adjustments will be made for comfort</string>
+    <string name="sleep_start_time">Sleep start time</string>
+    <string name="sleep_end_time">Sleep end time</string>
+    <string name="today_sleep_data">Today\'s sleep data</string>
+    <string name="bracelet_clock">Band clock</string>
+    <string name="call_reminder">Call alerts</string>
+    <string name="call_reminder_state">The band will vibrate and display the number of an incoming call</string>
+    <string name="prevent_child_lost">Kids whereabouts</string>
+    <string name="prevent_child_lost_state">If your kids leave the area you are in while wearing the band, your phone will automatically alert you</string>
+    <string name="find_mobile">Find phone</string>
+    <string name="find_mobile_state">Long press on the band button for 6 seconds will cause your phone to send out an alert</string>
+    <string name="steps_goal_set">Pedometer settings</string>
+    <string name="step_10000">10,000 steps</string>
+    <string name="device_airc_on">Turn on AC</string>
+    <string name="allday_mileage">Total distance</string>
+    <string name="_1_16miles">1.16 km</string>
+    <string name="record_year">Year</string>
+    <string name="record_month">Month</string>
+    <string name="record_day">Day</string>
+    <string name="record_hour">Hour</string>
+
+    <string name="Please_choose_the_device_type">Please select device type!</string>
+    <string name="Please_use_this_function_on_version_44_and_above">Please use this function on version 4.4 and above..</string>
+    <string name="Device_isnot_connected">Device is\'not connected.</string>
+    <string name="want_to_use_your_wifi"> want to use your Wi-Fi</string>
+
+    <string name="airc_two_warning">Reminder: For special type AC, please follow the product manual.</string>
+    <string name="dehu_two_warning">Reminder: If there is no \"FILTER\" button, press \"ION\" instead.</string>
+
+    <string name="air_conditioner">Air conditioner</string>
+    <string name="add_device_text_tick_hint_airc">OK, AC display \"AP\"</string>
+    <string name="add_device_text_tick_hint_dehu">OK, Dehumidifier display \"AP\"</string>
+    <string name="add_device_text_tick_hint_humi">OK, Humidifier display \"AP\"</string>
+    <string name="add_device_text_tick_hint_airb">OK, Wi-Fi light flashing quickly</string>
+    <string name="the_device_is_not_in_ap_mode">The device is not in AP mode.</string>
+    <string name="the_function_of_looking_for_cellphone_is_triggered">The function of looking for cellphone is triggered</string>
+    <string name="look_for_cellphone">Look for cellphone</string>
+    <string name="unable_to_connect_to_your_child_band">Unable to connect to your child\'s band</string>
+    <string name="child_throwing_reminder">child throwing reminder </string>
+    <string name="reminder">reminder</string>
+    <string name="attention">Attention</string>
+    <string name="blowingPeople">Wind ON me</string>
+    <string name="avoidPeople">Wind OFF me</string>
+    <string name="LED">LED</string>
+    <string name="Beep">Sound</string>
+    <string name="BlowingPeoplecanntbechangedunderFanmode">Wind ON me can not be changed at this device</string>
+    <string name="BlowingPeopleisnotsupportedatthismode">Wind ON me is not supported at this mode</string>
+    <string name="AvoidPeoplecanntbechangedunderFanmode">Wind OFF me can not be changed at this device</string>
+    <string name="AvoidPeopisnotsupportedatthismode">Wind OFF me is not supported at this mode</string>
+    <string name="personality_hum">personality hum</string>
+    <string name="personality_dehumidify">Personality Dehumidify</string>
+    <string name="on_off">On/Off</string>
+
+    <string name="unknown">unknow</string>
+    <string name="choose_device_type">Please select device type</string>
+    <string name="device_type_recognition_over_time">Device recognition has timed out.</string>
+    <string name="please_choose_a_device_type">please select available modes</string>
+    <string name="cooling_and_heating"><![CDATA[Cool, Dry & Heat Mode]]></string>
+    <string name="auto_cool_dry_heat_fan">(Auto,Cool,Dry,Heat,Fan)</string>
+    <string name="cooling_only"><![CDATA[Cool & Dry Mode]]></string>
+    <string name="auto_cool_dry_fan">(Auto,Cool,Dry,Fan)</string>
+    <string name="cooling_special">Cool Mode</string>
+    <string name="cool_fan">(Cool,Fan)</string>
+    <string name="heating_only">Heat Mode</string>
+    <string name="auto_heat_fan">(Auto,Heat,Fan)</string>
+
+    <string name="qr_code_is_illegal">Incorrect QR code.</string>
+    <string name="please_choose_one">Please choose one.</string>
+    <string name="custom_dry">Custom Dry</string>
+    <string name="unit_kwh"> (kW·h)</string>
+    <string name="unit_kwh2">kW·h</string>
+    <string name="recommend_name_echo_supported">Recommended Names:</string>
+    <string name="self_defined_name">Custom Name:</string>
+    <string name="same_name_of_an_existing_device_tips">The current device name can not be the same as the name of an existing device.</string>
+    <string name="this_function_can_only_be_used_in_heat_mode">This function can only be used in heat mode</string>
+    <string name="fault_code">Fault </string>
+    <string name="device_name_should_not_be_empty">Device name cannot be empty</string>
+    <string name="scan_wifi_timeout">Scan Wi-Fi timeout</string>
+    <string name="no_wifi_info_is_scanned">No Wi-Fi info is scanned</string>
+    <string name="update_success">Update successful</string>
+    <string name="device_name_should_be_less_than_20_characters">Device name cannot exceed 19 characters</string>
+    <string name="got_it">Got it</string>
+    <string name="my_personal_information">Personal information</string>
+    <string name="manually_connect_family_wifi_tips">You need to manually connect to the family Wi-Fi named \"%1$s\"</string>
+    <string name="manually_connect_device_wifi_tips">You need to manually connect to the device Wi-Fi named \"%1$s\"</string>
+    <string name="update_title">Update available</string>
+    <string name="update_content">The version you are currently using out of date, please upgrade.</string>
+    <string name="update_confirm">Update now</string>
+    <string name="update_cancel">Update later</string>
+    <string name="device_is_off">Device is off</string>
+    <string name="device_name_is_illegal">Device name is illegal</string>
+    <string name="user_name_is_illegal">User name is illegal</string>
+    <string name="timer_on_timer_off_cannot_be_same">Values for timer-on and timer-off cannot be the same</string>
+    <string name="there_is_no_record">There is no record</string>
+    <string name="wind_auto">Wind Auto</string>
+    <string name="refresh_function">Refresh Function</string>
+    <string name="share_device_note">Notice:</string>
+    <string name="share_device_note_content">Have the person you wish to share the device with open the Midea Air APP on their personal phone and scan this QR code. This will allow them to control the appliance.</string>
+    <string name="share_device_note_content_new">Now please ask your family to use APP on their own mobile phones to scan this QR code and share this device to them.</string>
+
+    <string name="receive_share_request_title">You have received a request to share your device</string>
+    <string name="receive_share_request_content"> is asking for device access, do you accept?</string>
+    <string name="shared_devices">Shared devices</string>
+    <string name="accept_share_device">Accept request</string>
+    <string name="refuse_share_device">Refuse request</string>
+    <string name="accept_your_request_for_share_device">Your request for sharing device has been accepted</string>
+    <string name="refuse_your_request_for_share_device">Your request for sharing device has been refused</string>
+    <string name="submitted_share_device_request">The request has been submitted,please wait for the owner to agree.</string>
+    <string name="config_one_content">Power on AC，waiting for 5 seconds and then go to the next step.</string>
+    <string name="airc_ap_warning">Caution: All the steps should be done when "AP" is displaying, otherwise you need to power on %1$s again.</string>
+    <string name="config_four_content1">Please select your home WiFi network and enter the password</string>
+    <string name="config_four_content2">Connect home Wi-Fi</string>
+    <string name="config_four_content3">Type Wi-Fi password</string>
+    <string name="config_four_content4">Please enter password</string>
+    <string name="config_next">Next</string>
+    <string name="config_wifi_now">Go to Wi-Fi Settings</string>
+    <string name="config_start_connection">Start Configuration</string>
+    <string name="text_wifi_name_4">connecting Wi-Fi name:</string>
+    <string name="text_wifi_psd_4">Wi-Fi Password:</string>
+    <string name="text_wifi_current_4">Connected Wi-Fi:</string>
+    <string name="text_wifi_not_find_4">Can’t find </string>
+    <string name="text_wifi_not_find_cause_4"><Data><![CDATA[It may be that the product is not in AP mode. <font color=\"#F5A623\"><u>Try again</u></font>]]></Data></string>
+    <string name="text_wifi_try_again_4">Try again</string>
+
+    <string name="air_add_device_tip_ap_1">Connecting phone to appliance:</string>
+    <string name="air_add_device_tip_ap_2">Connecting appliance:</string>
+    <string name="air_add_device_tip_ap_3">Connecting appliance to Wi-Fi:</string>
+    <string name="air_add_device_tip_ap_4">Reconnecting phone to Wi-Fi:</string>
+
+    <!--配网迭代-->
+    <string name="text_hint_4"><Data><![CDATA[Enter into your Phone <font color=\"#3298FD\">“WLAN Settings”</font>]]></Data></string>
+    <string name="text_hint_airc_1"><Data><![CDATA[<font color=\"#3298FD\">Power on AC</font>，waiting for 5 seconds and then go to the next step.]]></Data></string>
+    <!--<string name="text_hint_airc_2"><Data><![CDATA[Press the <font color=\"#3298FD\">“LED DISPLAY” or “Do NOT DISTURB”</font>button seven times continuously until the AC display ”AP”. Thus, go to the next step.]]></Data></string>-->
+    <!--<string name="text_hint_airc_3"><Data><![CDATA[请检查空调<font color=\"#3298FD\">WIFI指示灯</font>是否处于<font color=\"#3298FD\">快闪</font>状态，若是，则进入下一步]]></Data></string>-->
+    <string name="text_hint_dehu_1"><Data><![CDATA[<font color=\"#3298FD\">Power on Dehumidifier</font>，waiting for 5 seconds and then go to the next step.]]></Data></string>
+    <!--<string name="text_hint_dehu_2"><Data><![CDATA[<font color=\"#3298FD\">Press and hold the “FILTER” button</font> on the Dehumidifier 3 seconds until it display “AP”. Thus, go to the next step.]]></Data></string>-->
+    <string name="text_hint_humi_1"><Data><![CDATA[<font color=\"#3298FD\">Pull out and insert power plug</font> of Humidifier，waiting for 5 seconds and then go to the next step.]]></Data></string>
+    <!--<string name="text_hint_humi_2"><Data><![CDATA[<font color=\"#3298FD\">Press and hold the “Power” button</font> on the Humidifier 3 seconds until it display “AP”. Thus, go to the next step.]]></Data></string>-->
+    <string name="text_hint_airb_1"><Data><![CDATA[<font color=\"#3298FD\">Pull on Air Monitor,waiting for 5 seconds</font>，and then go to the next step.]]></Data></string>
+    <!--<string name="text_hint_airb_2"><Data><![CDATA[<font color=\"#3298FD\">Press and hold the “Reset” button for 3 seconds until yellow light flashes twice,</font> then go to the next step.]]></Data></string>-->
+    <string name="text_hint_airb_3">Check whether the Wi-Fi light of Air Monitor turns to quickly flashing. If so, go to the next step. If not, repeat step two again.</string>
+    <string name="please_choose_the_device_type">Please select device type!</string>
+    <string name="action_bar_quit">Quit</string>
+    <string name="qr_invalid">illegal QR code</string>
+    <string name="other_error">Failed, please try again later</string>
+    <string name="heat8_cant_be_used_under_sleep_function">8° Heat can\'t be used under sleep function</string>
+    <string name="read_the_terms_of_service_tips">Please read and agree to the terms of service.</string>
+    <string name="notification_control">Notification Control</string>
+    <string name="notification_control_item">widget</string>
+    <string name="widget_control">Device Select</string>
+    <string name="reject">Disagree</string>
+    <string name="accept">Agree</string>
+    <string name="connect_5g_wifi_tips">5GHz networks are not supported by this product, please use 2.4GHz Wi-Fi</string>
+    <string name="midea_privacy_notice">Midea Privacy Notice</string>
+    <string name="midea_service_agreement">Midea Service Agreement</string>
+    <string name="scanning_filter">"Scanning filter "</string>
+    <string name="device_abnormal_please_check">Device Abnormal, Please Check</string>
+    <string name="bucket_is_removed">Bucket is removed</string>
+    <string name="full_of_water">Bucket is full</string>
+    <string name="full_of_water_msg">This operation cannot be performed in the "full of water" state.</string>
+    <string name="no_anion_function">Anion is not supported at this device.</string>
+    <string name="no_pump_function">Pumb is not supported at this device.</string>
+    <string name="no_dry_clothes_function">This Mode is not supported at this device.</string>
+    <string name="change_not_saved_tips">You have unsaved changes, are you sure you want to quit?</string>
+    <string name="discard_changes">Yes,Discard Changes</string>
+    <string name="save_now">No,Save Changes</string>
+
+    <!--新的配网流程添加的字段-->
+    <string name="text_5g_error">Note: Only 2.4Ghz networks are supported by this product.</string>
+    <string name="air_device_split_type_ac">Split-type AC</string>
+    <string name="air_device_portable_ac">Portable AC</string>
+    <string name="air_device_window_ac">Window AC</string>
+    <string name="air_device_humidifier">Cassette/Duct/Ceiling&#38;Floor</string>
+
+    <!--注销账号的文字-->
+    <string name="delete_account">Delete Account</string>
+    <string name="delete_account_title">Account cancellation</string>
+    <string name="delete_account_content">After cancellation, account and device information will be destroyed and cannot be resumed. If you want to use it again, please register again. Is it going to go on?</string>
+    <string name="delete_account_confirm_title">The cancellation has been successful</string>
+    <string name="delete_account_confirm_content">We will destroy our personal information according to our privacy policy, and thank you for using our services.</string>
+
+
+    <string name="sign_in_third">Sign in with the third party accounts</string>
+    <string name="customer_support">Customer Support</string>
+    <string name="me_faq">FAQs</string>
+    <string name="me_firmware_update">Firmware Update</string>
+
+    <string name="net_config_note">Note: If location is not accepted, the app will not function correctly.</string>
+    <string name="add_shared_device_reminder">Note:A shared device allows users to authorize another account holder to control the device.</string>
+    <string name="add_allow_access_reminder">Note:You must allow access to your location to set up a new device.</string>
+
+    <string name="Pleaseenterpassword1">Please enter password</string>
+
+    <!--小美添加的文案-->
+    <string name="voice">Voice</string>
+    <string name="guide_reminder_dialog">The Guide For Wi-Fi Smart Products</string>
+    <string name="guide_reminder_dialog_first">5GHz networks are not supported.</string>
+    <string name="guide_reminder_dialog_second">Make sure you allow the app to access your location.</string>
+    <string name="guide_reminder_dialog_third">Locate the router close to the product and cellphone, make sure there are no obstacles between them.</string>
+    <string name="guide_reminder_dialog_four">Please keep the mobile data access being turn off.</string>
+    <string name="guide_reminder_dialog_five">To search your home device so that APP can connect it with your home WI-FI, allow APP to use your location all the time.</string>
+    <string name="guide_reminder_dialog_six">APP will use location in the background to keep connecting with your home device.</string>
+    <string name="guide_reminder_dialog_button">Don\'t show this again</string>
+
+    <string name="reminder_dialog">
+	5GHz networks can not be supported;\n
+	Make sure you allow the app to access your location;\n
+	Locate the router close to the product and cellphone, make sure there are no obstacles between them;
+    </string>
+
+    <string name="offline_reminder_dialog">Please check the following aspects:\n\n1.Whether the device is on power;\n\n2.Whether the wifi name or password has been modified; if you are not sure whether to modify it, you can use the app to connect it again;\n\n3.Whether the network status is stable.You can try to log out the current account and login again to solve this issue.</string>
+    <string name="Schedule">Schedules</string>
+    <string name="Label">Label</string>
+    <string name="unnamed">Unnamed</string>
+    <string name="Once">Only once</string>
+    <string name="weekdays">Weekdays</string>
+    <string name="custom_used">Custom:</string>
+    <string name="common_used">Commonly used:</string>
+    <string name="schedule_temperature">Temperature</string>
+    <string name="change_dialog_content_1">Save changes?</string>
+    <string name="password3">Confirm new password</string>
+    <string name="schedule_mode">Mode</string>
+    <string name="schedule_medium">Medium</string>
+    <string name="please_enter_password">Please enter password</string>
+    <string name="delete_schedule">Delete schedule</string>
+
+    <string name="auto_">Auto</string>
+    <string name="cool_">Cool</string>
+    <string name="dry_">Dry</string>
+    <string name="heat_">Heat</string>
+    <string name="fan_">Fan</string>
+
+    <string name="welcome_home">Welcome Home</string>
+    <string name="net_config_done">Done</string>
+    <string name="net_config_waiting">Waiting</string>
+    <string name="net_config_failed">Failed</string>
+    <string name="net_config_retry">Retry</string>
+    <string name="main_card_power_off">Power off</string>
+    <string name="empty_string" />
+    <string name="title">title</string>
+    <string name="content">content</string>
+    <string name="tips">tips</string>
+    <string name="initializing">init…</string>
+    <string name="ac_recommend_name">AirCon</string>
+    <string name="a1_recommend_name">Dehumidifier</string>
+    <string name="c3_recommend_name">WaterHeater</string>
+    <!--Permission-->
+    <string name="location_permission_request_title">Permissions Required</string>
+    <string name="location_permission_request_content">To connect product, please enable location service for %1$s in Settings->%2$s</string>
+    <string name="location_permission_request_btn_cancel">Cancel</string>
+    <string name="location_permission_request_btn_go">Go to Settings</string>
+    <string name="gps_request_title">GPS Required</string>
+    <string name="gps_request_content">Please activate the GPS on your mobile phone in order to complete the connection.</string>
+    <string name="go_to_gps_settings">Go to settings</string>
+    <string name="family_wifi_password_error">Family WLAN password error.</string>
+    <!--WIFI LIST-->
+    <string name="wifi_list_title_device">Device WLAN List</string>
+    <string name="wifi_list_title_home">Family WLAN List</string>
+    <string name="go_to_wifi_list">Go to WLAN List</string>
+    <!--Config_reminder-->
+    <string name="config_reminder_content">If there is a reminder about the connection of the device AP, please choose \"YES\".</string>
+    <string name="config_reminder_switch_to_ap">Please connect to the device WLAN(%1$s) with the password \"12345678\"</string>
+    <string name="config_reminder_switch_to_home_wifi">Please connect to the family WLAN(%1$s)</string>
+
+    <!--new Wording-->
+    <string name="network_not_good">The current network is not very good, please check the mobile network</string>
+    <string name="unable_verify_account">Unable to verify account, please sign in again</string>
+
+    <string name="breeze_away_can_not_used_under_current_mode">This function can not used under current mode.</string>
+    <string name="eco_eye_not_support_in_this_mode">This function can not used under current mode</string>
+    <string name="please_waite_for_a_moment">Please wait for a moment!</string>
+    <string name="WindSpeedisnotsupportedatthisdevice">WindSpeed is not supported to change.</string>
+    <string name="windspeed_is_not_adjustable_under_dryer_mode">FanSpeed is not adjustable under Dryer mode!</string>
+    <string name="windspeed_is_not_adjustable_under_anti_mode">FanSpeed is not adjustable under Anti-mould mode!</string>
+    <string name="windspeed_is_not_adjustable_under_purifier_mode">FanSpeed is not adjustable under Air Purifier mode!</string>
+    <!--3月份迭代-->
+    <string name="password_rule_reminder_txt">Password need 6~20 characters,must contain letters and numbers.</string>
+    <string name="account_verify_title">Verify account</string>
+    <string name="account_verify_email_has_been_sent">An email has been sent to the address below.</string>
+    <string name="account_verify_try_signin">Please try signing in via the mail.</string>
+    <string name="account_verify_not_received"><u>Haven\‘t received the email yet?</u></string>
+    <string name="account_verify_send_again"><u>Send again</u></string>
+    <string name="account_verify_check_inbox">*Please check the spam folder of your email you do not see the verification email in your Inbox.</string>
+    <string name="account_verify_try_again">If you have trouble receiving an Email,please use other email and try joining again.</string>
+    <string name="account_verify_try_send_success">Send succeed</string>
+    <string name="nickname_change_suc">Change succeed</string>
+    <string name="config_net_scan">Scan QR code on the unit</string>
+
+    <!--4月份迭代-->
+    <string name="firmware_version">Firmware Version</string>
+    <string name="go_to_faq">Go to FAQ</string>
+
+    <string name="bucket_removed">Bucket is removed</string>
+    <string name="bucket_full">Bucket is full</string>
+
+    <string name="schedule_dh_dehumidify">Dehumidify</string>
+    <string name="schedule_dh_smart">Smart</string>
+    <string name="schedule_dh_dry_clothes">Dryer</string>
+    <string name="schedule_dh_continuous">Continuous</string>
+    <string name="schedule_dh_anti_mould">Anti-mould</string>
+    <string name="schedule_dh_air_purifier">Air Purifier</string>
+    <string name="function_not_be_used_under_current_mode">This function can not be used under current mode</string>
+    <string name="Retry">Retry</string>
+    <!--ATW -->
+    <string name="air_to_water">Air To Water</string>
+    <string name="atw_mode_tag">Mode</string>
+    <string name="atw_mode_heat">Heat</string>
+    <string name="atw_mode_dhw">DHW</string>
+    <string name="atw_mode_heat_dhw">Heat+DHW</string>
+
+    <string name="atw_turbo_tag">Turbo</string>
+    <string name="atw_turbo_heat">Heat</string>
+    <string name="atw_turbo_dhw">DHW</string>
+    <string name="atw_turbo_heat_dhw">Heat+DHW</string>
+    <string name="atw_turbo_cancel">Cancel turbo</string>
+    <string name="water_temperature">Water Temperature</string>
+    <string name="dhw_temperature">DHW Temperature</string>
+    <!--8月份迭代-->
+    <string name="about_contact_us">Contact Us</string>
+    <string name="remove">Remove</string>
+
+    <string name="device_description">Description of device</string>
+
+    <!--除湿机新UI-->
+    <string name="dm_negative_ions">Fresh</string>
+    <string name="dm_display">Pump</string>
+    <string name="dm_wind">Fan Speed</string>
+    <string name="dm_updownwind">Horizontal S</string>
+    <string name="dm_light">Light</string>
+
+    <string name="dm_smart">Smart</string>
+    <string name="dm_dryclothes">Dry</string>
+    <string name="dm_pure">Pure</string>
+    <string name="dm_mouldproof">Anti-Mould</string>
+    <string name="dm_blowingin">Fan</string>
+    <string name="dm_cont">Continuous</string>
+
+    <string name="tv_geolocation">Geolocation</string>
+    <string name="tv_location">Location</string>
+    <string name="tv_range">Range</string>
+    <string name="tv_setting">Setting</string>
+    <string name="tv_mile">Mile</string>
+    <string name="tv_kilometer">Kilometer</string>
+    <string name="when_you_leave">When you leave the specified range</string>
+    <string name="when_you_enter">When you enter the specified range</string>
+    <string name="device_location_tips">This is the location of my device.</string>
+    <string name="save_location_tips">Do you want to save location?</string>
+
+    <string-array name="miles">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="range_kilometer">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </string-array>
+
+    <string-array name="range_unit">
+        <item>Miles</item>
+        <item>Kilometers</item>
+    </string-array>
 </resources>
