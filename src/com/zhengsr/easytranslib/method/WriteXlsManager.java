@@ -236,7 +236,7 @@ public class WriteXlsManager extends BaseSheet{
 							if(index != -1){
 								//找到对应的row
 								Row valueRow = sheet.getRow(index+1);
-								if(sheet == null){
+								if(valueRow == null){
 									valueRow = sheet.createRow(index+1);
 								}
 								
